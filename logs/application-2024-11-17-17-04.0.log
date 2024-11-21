@@ -1,0 +1,744 @@
+2024-11-17 17:04:02.182 [traceId=] o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-17 17:04:02.765 [traceId=] c.e.AppStoreAdminApplication - Starting AppStoreAdminApplication using Java 21.0.4 with PID 19624 (C:\Users\우준석\OneDrive\바탕 화면\sendyClone\sendyClone\appstore-admin\out\production\classes started by 우준석 in C:\Users\우준석\OneDrive\바탕 화면\sendyClone\sendyClone)
+2024-11-17 17:04:02.769 [traceId=] c.e.AppStoreAdminApplication - The following 1 profile is active: "local"
+2024-11-17 17:04:12.739 [traceId=] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-17 17:04:12.751 [traceId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-17 17:04:14.736 [traceId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1949 ms. Found 7 JPA repository interfaces.
+2024-11-17 17:04:14.786 [traceId=] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-17 17:04:14.790 [traceId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-17 17:04:14.872 [traceId=] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.completeddelivery.repository.CompletedDeliveryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-17 17:04:14.873 [traceId=] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.deleteddelivery.repository.DeletedDeliveryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-17 17:04:14.882 [traceId=] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.delivery.repository.DeliveryDocumentRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-17 17:04:14.883 [traceId=] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.driver.repository.DriverRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-17 17:04:14.884 [traceId=] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-17 17:04:14.884 [traceId=] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.stopover.repository.StopOverRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-17 17:04:14.885 [traceId=] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.wallet.repository.WalletRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-17 17:04:14.926 [traceId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104 ms. Found 0 Redis repository interfaces.
+2024-11-17 17:04:16.503 [traceId=] o.s.c.c.s.GenericScope - BeanFactory id=cc4027a2-329c-31cd-a76b-2404aaa4e717
+2024-11-17 17:04:20.222 [traceId=] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-17 17:04:20.251 [traceId=] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-17 17:04:20.261 [traceId=] o.a.c.c.StandardService - Starting service [Tomcat]
+2024-11-17 17:04:20.261 [traceId=] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-17 17:04:20.513 [traceId=] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2024-11-17 17:04:20.514 [traceId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 17044 ms
+2024-11-17 17:04:21.351 [traceId=] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2024-11-17 17:04:21.464 [traceId=] c.z.h.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@36baf30c
+2024-11-17 17:04:21.942 [traceId=] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-17 17:04:22.215 [traceId=] o.h.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-17 17:04:22.360 [traceId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-17 17:04:24.205 [traceId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-17 17:04:24.288 [traceId=] c.z.h.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2024-11-17 17:04:24.288 [traceId=] c.z.h.HikariConfig - HikariPool-1 - configuration:
+2024-11-17 17:04:24.291 [traceId=] c.z.h.HikariConfig - allowPoolSuspension.............false
+2024-11-17 17:04:24.291 [traceId=] c.z.h.HikariConfig - autoCommit......................true
+2024-11-17 17:04:24.291 [traceId=] c.z.h.HikariConfig - catalog.........................none
+2024-11-17 17:04:24.291 [traceId=] c.z.h.HikariConfig - connectionInitSql...............none
+2024-11-17 17:04:24.291 [traceId=] c.z.h.HikariConfig - connectionTestQuery.............none
+2024-11-17 17:04:24.292 [traceId=] c.z.h.HikariConfig - connectionTimeout...............3000
+2024-11-17 17:04:24.292 [traceId=] c.z.h.HikariConfig - dataSource......................none
+2024-11-17 17:04:24.292 [traceId=] c.z.h.HikariConfig - dataSourceClassName.............none
+2024-11-17 17:04:24.292 [traceId=] c.z.h.HikariConfig - dataSourceJNDI..................none
+2024-11-17 17:04:24.293 [traceId=] c.z.h.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-11-17 17:04:24.293 [traceId=] c.z.h.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-11-17 17:04:24.293 [traceId=] c.z.h.HikariConfig - exceptionOverrideClassName......none
+2024-11-17 17:04:24.293 [traceId=] c.z.h.HikariConfig - healthCheckProperties...........{}
+2024-11-17 17:04:24.293 [traceId=] c.z.h.HikariConfig - healthCheckRegistry.............none
+2024-11-17 17:04:24.294 [traceId=] c.z.h.HikariConfig - idleTimeout.....................200000
+2024-11-17 17:04:24.294 [traceId=] c.z.h.HikariConfig - initializationFailTimeout.......1
+2024-11-17 17:04:24.294 [traceId=] c.z.h.HikariConfig - isolateInternalQueries..........false
+2024-11-17 17:04:24.294 [traceId=] c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/sendy_db?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&autoReconnect=true&connectTimeout=10000&socketTimeout=30000&prepStmtCacheSize=100&prepStmtCacheSqlLimit=2048&cachePrepStmts=true&rewriteBatchedStatements=true&useServerPrepStmts=true
+2024-11-17 17:04:24.294 [traceId=] c.z.h.HikariConfig - keepaliveTime...................0
+2024-11-17 17:04:24.295 [traceId=] c.z.h.HikariConfig - leakDetectionThreshold..........2000
+2024-11-17 17:04:24.295 [traceId=] c.z.h.HikariConfig - maxLifetime.....................240000
+2024-11-17 17:04:24.295 [traceId=] c.z.h.HikariConfig - maximumPoolSize.................100
+2024-11-17 17:04:24.295 [traceId=] c.z.h.HikariConfig - metricRegistry..................none
+2024-11-17 17:04:24.295 [traceId=] c.z.h.HikariConfig - metricsTrackerFactory...........none
+2024-11-17 17:04:24.295 [traceId=] c.z.h.HikariConfig - minimumIdle.....................100
+2024-11-17 17:04:24.295 [traceId=] c.z.h.HikariConfig - password........................<masked>
+2024-11-17 17:04:24.295 [traceId=] c.z.h.HikariConfig - poolName........................"HikariPool-1"
+2024-11-17 17:04:24.296 [traceId=] c.z.h.HikariConfig - readOnly........................false
+2024-11-17 17:04:24.296 [traceId=] c.z.h.HikariConfig - registerMbeans..................false
+2024-11-17 17:04:24.296 [traceId=] c.z.h.HikariConfig - scheduledExecutor...............none
+2024-11-17 17:04:24.296 [traceId=] c.z.h.HikariConfig - schema..........................none
+2024-11-17 17:04:24.296 [traceId=] c.z.h.HikariConfig - threadFactory...................internal
+2024-11-17 17:04:24.296 [traceId=] c.z.h.HikariConfig - transactionIsolation............default
+2024-11-17 17:04:24.296 [traceId=] c.z.h.HikariConfig - username........................"root"
+2024-11-17 17:04:24.298 [traceId=] c.z.h.HikariConfig - validationTimeout...............3000
+2024-11-17 17:04:24.298 [traceId=] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2024-11-17 17:04:24.679 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2caa9666
+2024-11-17 17:04:24.685 [traceId=] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-17 17:04:24.794 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-11-17 17:04:24.807 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3867959a
+2024-11-17 17:04:24.822 [traceId=] o.h.o.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-17 17:04:24.826 [traceId=] o.h.o.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-17 17:04:24.840 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=2, active=1, idle=1, waiting=0)
+2024-11-17 17:04:24.853 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@795a9fa1
+2024-11-17 17:04:24.887 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-11-17 17:04:24.899 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4869c372
+2024-11-17 17:04:24.899 [traceId=] o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@15a591d9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5812935)
+2024-11-17 17:04:24.900 [traceId=] o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@71e9640) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1ce45e18)
+2024-11-17 17:04:24.900 [traceId=] o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@25762f04) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2932721e)
+2024-11-17 17:04:24.900 [traceId=] o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5a6d4dee) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6447dc25)
+2024-11-17 17:04:24.900 [traceId=] o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@705dc1a6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4a45ff31)
+2024-11-17 17:04:24.900 [traceId=] o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7af7c9aa) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@208b8425)
+2024-11-17 17:04:24.901 [traceId=] o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3ec52163) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5b1cedfd)
+2024-11-17 17:04:24.901 [traceId=] o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1fe2c5ad) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6334c0d8)
+2024-11-17 17:04:24.901 [traceId=] o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@74ed3be4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@48224381)
+2024-11-17 17:04:24.935 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-11-17 17:04:24.945 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@197560ee
+2024-11-17 17:04:24.981 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-11-17 17:04:24.995 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6178c5b5
+2024-11-17 17:04:25.029 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-11-17 17:04:25.057 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d3b9d32
+2024-11-17 17:04:25.091 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-11-17 17:04:25.150 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a86aa56
+2024-11-17 17:04:25.185 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-11-17 17:04:25.209 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bcf23a3
+2024-11-17 17:04:25.248 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-11-17 17:04:25.287 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dd096f6
+2024-11-17 17:04:25.326 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-11-17 17:04:25.413 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62af55cf
+2024-11-17 17:04:25.451 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=11, active=0, idle=11, waiting=0)
+2024-11-17 17:04:25.486 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3365e360
+2024-11-17 17:04:25.528 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=12, active=0, idle=12, waiting=0)
+2024-11-17 17:04:25.565 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@466cb178
+2024-11-17 17:04:25.606 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=13, active=0, idle=13, waiting=0)
+2024-11-17 17:04:25.708 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dfd09e9
+2024-11-17 17:04:25.748 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=14, active=0, idle=14, waiting=0)
+2024-11-17 17:04:25.793 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c8cf054
+2024-11-17 17:04:25.836 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=15, active=0, idle=15, waiting=0)
+2024-11-17 17:04:25.862 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@549bed53
+2024-11-17 17:04:25.899 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=16, active=0, idle=16, waiting=0)
+2024-11-17 17:04:25.952 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5317f8bd
+2024-11-17 17:04:25.992 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=17, active=0, idle=17, waiting=0)
+2024-11-17 17:04:26.038 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@936f4ea
+2024-11-17 17:04:26.071 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=18, active=0, idle=18, waiting=0)
+2024-11-17 17:04:26.095 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@180a0599
+2024-11-17 17:04:26.133 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=19, active=0, idle=19, waiting=0)
+2024-11-17 17:04:26.156 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@470cacbf
+2024-11-17 17:04:26.196 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+2024-11-17 17:04:26.222 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d497dd5
+2024-11-17 17:04:26.260 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=21, active=0, idle=21, waiting=0)
+2024-11-17 17:04:26.275 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a72e76b
+2024-11-17 17:04:26.307 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=22, active=0, idle=22, waiting=0)
+2024-11-17 17:04:26.326 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@256caac7
+2024-11-17 17:04:26.369 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=23, active=0, idle=23, waiting=0)
+2024-11-17 17:04:26.390 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e8b7235
+2024-11-17 17:04:26.431 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=24, active=0, idle=24, waiting=0)
+2024-11-17 17:04:26.454 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4384574c
+2024-11-17 17:04:26.492 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=25, active=0, idle=25, waiting=0)
+2024-11-17 17:04:26.505 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@690f6787
+2024-11-17 17:04:26.539 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=26, active=0, idle=26, waiting=0)
+2024-11-17 17:04:26.559 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ca1ba4b
+2024-11-17 17:04:26.602 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=27, active=0, idle=27, waiting=0)
+2024-11-17 17:04:26.618 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7aef6a6
+2024-11-17 17:04:26.663 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=28, active=0, idle=28, waiting=0)
+2024-11-17 17:04:26.685 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e3ec8da
+2024-11-17 17:04:26.726 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=29, active=0, idle=29, waiting=0)
+2024-11-17 17:04:26.744 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f53121
+2024-11-17 17:04:26.788 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=30, active=0, idle=30, waiting=0)
+2024-11-17 17:04:26.802 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62f0acb1
+2024-11-17 17:04:26.834 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=31, active=0, idle=31, waiting=0)
+2024-11-17 17:04:26.860 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ca98078
+2024-11-17 17:04:26.897 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=32, active=0, idle=32, waiting=0)
+2024-11-17 17:04:26.913 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27de8c77
+2024-11-17 17:04:26.959 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=33, active=0, idle=33, waiting=0)
+2024-11-17 17:04:26.984 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b7af2c0
+2024-11-17 17:04:27.031 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=34, active=0, idle=34, waiting=0)
+2024-11-17 17:04:27.089 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@693671cd
+2024-11-17 17:04:27.135 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=35, active=0, idle=35, waiting=0)
+2024-11-17 17:04:27.197 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e01fb14
+2024-11-17 17:04:27.241 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=36, active=0, idle=36, waiting=0)
+2024-11-17 17:04:27.266 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19b83479
+2024-11-17 17:04:27.303 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=37, active=0, idle=37, waiting=0)
+2024-11-17 17:04:27.333 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5557b89f
+2024-11-17 17:04:27.367 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=38, active=0, idle=38, waiting=0)
+2024-11-17 17:04:27.397 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ab75495
+2024-11-17 17:04:27.429 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=39, active=0, idle=39, waiting=0)
+2024-11-17 17:04:27.465 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fdc1721
+2024-11-17 17:04:27.508 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=40, active=0, idle=40, waiting=0)
+2024-11-17 17:04:27.521 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@282681a4
+2024-11-17 17:04:27.555 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=41, active=0, idle=41, waiting=0)
+2024-11-17 17:04:27.574 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ef2ef33
+2024-11-17 17:04:27.618 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=42, active=0, idle=42, waiting=0)
+2024-11-17 17:04:27.635 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@218d8d07
+2024-11-17 17:04:27.681 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=43, active=0, idle=43, waiting=0)
+2024-11-17 17:04:27.702 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d7b2da4
+2024-11-17 17:04:27.742 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=44, active=0, idle=44, waiting=0)
+2024-11-17 17:04:27.787 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d8177a1
+2024-11-17 17:04:27.820 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=45, active=0, idle=45, waiting=0)
+2024-11-17 17:04:27.842 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@430bde97
+2024-11-17 17:04:27.882 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=46, active=0, idle=46, waiting=0)
+2024-11-17 17:04:27.900 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cb982f1
+2024-11-17 17:04:27.944 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=47, active=0, idle=47, waiting=0)
+2024-11-17 17:04:27.961 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7805f873
+2024-11-17 17:04:28.005 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=48, active=0, idle=48, waiting=0)
+2024-11-17 17:04:28.037 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cef668f
+2024-11-17 17:04:28.082 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=49, active=0, idle=49, waiting=0)
+2024-11-17 17:04:28.100 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75aed8e5
+2024-11-17 17:04:28.144 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=50, active=0, idle=50, waiting=0)
+2024-11-17 17:04:28.187 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e106e
+2024-11-17 17:04:28.221 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=51, active=0, idle=51, waiting=0)
+2024-11-17 17:04:28.267 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5af70a0e
+2024-11-17 17:04:28.300 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=52, active=0, idle=52, waiting=0)
+2024-11-17 17:04:28.316 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b61d275
+2024-11-17 17:04:28.347 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=53, active=0, idle=53, waiting=0)
+2024-11-17 17:04:28.371 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ccd9dcc
+2024-11-17 17:04:28.409 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=54, active=0, idle=54, waiting=0)
+2024-11-17 17:04:28.429 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@722dfadd
+2024-11-17 17:04:28.473 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=55, active=0, idle=55, waiting=0)
+2024-11-17 17:04:28.486 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e41a795
+2024-11-17 17:04:28.520 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=56, active=0, idle=56, waiting=0)
+2024-11-17 17:04:28.533 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37887572
+2024-11-17 17:04:28.567 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=57, active=0, idle=57, waiting=0)
+2024-11-17 17:04:28.583 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29fa2d19
+2024-11-17 17:04:28.629 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=58, active=0, idle=58, waiting=0)
+2024-11-17 17:04:28.643 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d2d828
+2024-11-17 17:04:28.676 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=59, active=0, idle=59, waiting=0)
+2024-11-17 17:04:28.696 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43d29e78
+2024-11-17 17:04:28.739 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=60, active=0, idle=60, waiting=0)
+2024-11-17 17:04:28.763 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@98cf114
+2024-11-17 17:04:28.801 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=61, active=0, idle=61, waiting=0)
+2024-11-17 17:04:28.811 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2249a821
+2024-11-17 17:04:28.847 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=62, active=0, idle=62, waiting=0)
+2024-11-17 17:04:28.864 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3afe671
+2024-11-17 17:04:28.909 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=63, active=0, idle=63, waiting=0)
+2024-11-17 17:04:28.927 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6731f476
+2024-11-17 17:04:28.972 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=64, active=0, idle=64, waiting=0)
+2024-11-17 17:04:28.998 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b2061a5
+2024-11-17 17:04:29.350 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=65, active=0, idle=65, waiting=0)
+2024-11-17 17:04:29.359 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@959ac9f
+2024-11-17 17:04:29.397 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=66, active=0, idle=66, waiting=0)
+2024-11-17 17:04:29.415 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72f5b1cd
+2024-11-17 17:04:29.460 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=67, active=0, idle=67, waiting=0)
+2024-11-17 17:04:29.472 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c617eec
+2024-11-17 17:04:29.507 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=68, active=0, idle=68, waiting=0)
+2024-11-17 17:04:29.520 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fea82d4
+2024-11-17 17:04:29.555 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=69, active=0, idle=69, waiting=0)
+2024-11-17 17:04:29.564 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30da0c28
+2024-11-17 17:04:29.602 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=70, active=0, idle=70, waiting=0)
+2024-11-17 17:04:29.611 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a741cc4
+2024-11-17 17:04:29.649 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=71, active=0, idle=71, waiting=0)
+2024-11-17 17:04:29.659 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1de6637
+2024-11-17 17:04:29.697 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=72, active=0, idle=72, waiting=0)
+2024-11-17 17:04:29.710 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54ca2a1a
+2024-11-17 17:04:29.745 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=73, active=0, idle=73, waiting=0)
+2024-11-17 17:04:29.760 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bf479a1
+2024-11-17 17:04:29.792 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=74, active=0, idle=74, waiting=0)
+2024-11-17 17:04:29.810 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@446a0406
+2024-11-17 17:04:29.855 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=75, active=0, idle=75, waiting=0)
+2024-11-17 17:04:29.869 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f7a972c
+2024-11-17 17:04:29.903 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=76, active=0, idle=76, waiting=0)
+2024-11-17 17:04:29.923 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@215dcb25
+2024-11-17 17:04:29.965 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=77, active=0, idle=77, waiting=0)
+2024-11-17 17:04:30.021 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@633fa073
+2024-11-17 17:04:30.059 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=78, active=0, idle=78, waiting=0)
+2024-11-17 17:04:30.189 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c2570f
+2024-11-17 17:04:30.235 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=79, active=0, idle=79, waiting=0)
+2024-11-17 17:04:30.243 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e8e5ac6
+2024-11-17 17:04:30.281 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=80, active=0, idle=80, waiting=0)
+2024-11-17 17:04:30.288 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ea032ef
+2024-11-17 17:04:30.329 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=81, active=0, idle=81, waiting=0)
+2024-11-17 17:04:30.337 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@507e1a18
+2024-11-17 17:04:30.377 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=82, active=0, idle=82, waiting=0)
+2024-11-17 17:04:30.389 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@240786d7
+2024-11-17 17:04:30.422 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=83, active=0, idle=83, waiting=0)
+2024-11-17 17:04:30.433 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39874b8e
+2024-11-17 17:04:30.470 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=84, active=0, idle=84, waiting=0)
+2024-11-17 17:04:30.489 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2565876d
+2024-11-17 17:04:30.534 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=85, active=0, idle=85, waiting=0)
+2024-11-17 17:04:30.547 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7607d3f6
+2024-11-17 17:04:30.580 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=86, active=0, idle=86, waiting=0)
+2024-11-17 17:04:30.594 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@263cbb13
+2024-11-17 17:04:30.627 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=87, active=0, idle=87, waiting=0)
+2024-11-17 17:04:30.643 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62d01c04
+2024-11-17 17:04:30.675 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=88, active=0, idle=88, waiting=0)
+2024-11-17 17:04:30.687 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5610aadb
+2024-11-17 17:04:30.722 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=89, active=0, idle=89, waiting=0)
+2024-11-17 17:04:30.739 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19f9df7f
+2024-11-17 17:04:30.744 [traceId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-17 17:04:30.770 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=90, active=0, idle=90, waiting=0)
+2024-11-17 17:04:30.781 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@640fb440
+2024-11-17 17:04:30.815 [traceId=] o.h.SQL - 
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s
+2024-11-17 17:04:30.815 [traceId=] o.h.SQL - 
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s
+2024-11-17 17:04:30.817 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=91, active=1, idle=90, waiting=0)
+2024-11-17 17:04:30.823 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@163513db
+2024-11-17 17:04:30.864 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=92, active=1, idle=91, waiting=0)
+2024-11-17 17:04:30.873 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c48ea8a
+2024-11-17 17:04:30.910 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=93, active=1, idle=92, waiting=0)
+2024-11-17 17:04:30.919 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1208d179
+2024-11-17 17:04:30.932 [traceId=] o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s" via JDBC [Table 'sendy_db.stop_over' doesn't exist]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s" via JDBC [Table 'sendy_db.stop_over' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:476)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:242)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:215)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.AppStoreAdminApplication.main(AppStoreAdminApplication.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'sendy_db.stop_over' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 39 common frames omitted
+2024-11-17 17:04:30.939 [traceId=] o.h.SQL - 
+    drop table if exists completed_delivery
+2024-11-17 17:04:30.939 [traceId=] o.h.SQL - 
+    drop table if exists completed_delivery
+2024-11-17 17:04:30.957 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=94, active=1, idle=93, waiting=0)
+2024-11-17 17:04:30.959 [traceId=] o.h.SQL - 
+    drop table if exists deleted_delivery
+2024-11-17 17:04:30.959 [traceId=] o.h.SQL - 
+    drop table if exists deleted_delivery
+2024-11-17 17:04:30.965 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bbf822d
+2024-11-17 17:04:30.966 [traceId=] o.h.SQL - 
+    drop table if exists delivery
+2024-11-17 17:04:30.966 [traceId=] o.h.SQL - 
+    drop table if exists delivery
+2024-11-17 17:04:30.974 [traceId=] o.h.SQL - 
+    drop table if exists driver
+2024-11-17 17:04:30.974 [traceId=] o.h.SQL - 
+    drop table if exists driver
+2024-11-17 17:04:30.979 [traceId=] o.h.SQL - 
+    drop table if exists member
+2024-11-17 17:04:30.979 [traceId=] o.h.SQL - 
+    drop table if exists member
+2024-11-17 17:04:30.986 [traceId=] o.h.SQL - 
+    drop table if exists stop_over
+2024-11-17 17:04:30.986 [traceId=] o.h.SQL - 
+    drop table if exists stop_over
+2024-11-17 17:04:30.991 [traceId=] o.h.SQL - 
+    drop table if exists wallet
+2024-11-17 17:04:30.991 [traceId=] o.h.SQL - 
+    drop table if exists wallet
+2024-11-17 17:04:31.004 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=95, active=0, idle=95, waiting=0)
+2024-11-17 17:04:31.015 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e13defc
+2024-11-17 17:04:31.016 [traceId=] o.h.SQL - 
+    create table completed_delivery (
+        delivery_fee decimal(38,2) not null,
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        created_at datetime(6),
+        delivery_date datetime(6) not null,
+        driver_id bigint,
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        delivery_options varchar(255),
+        drop_address varchar(255),
+        idempotency_key varchar(255),
+        modified_by varchar(255),
+        pick_up_address varchar(255),
+        reservation_number varchar(255) not null,
+        delivery_personal_category enum ('PERSONAL_GENERAL_CARGO','PERSONAL_MINI_CARGO','PERSONAL_MOVING_CARGO'),
+        delivery_status enum ('ASSIGNMENT_COMPLETED','ASSIGNMENT_PENDING','CANCELED','DELIVERING','DELIVERY_COMPLETED','PAYMENT_PENDING'),
+        delivery_type enum ('BUSINESS','PERSONAL'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.016 [traceId=] o.h.SQL - 
+    create table completed_delivery (
+        delivery_fee decimal(38,2) not null,
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        created_at datetime(6),
+        delivery_date datetime(6) not null,
+        driver_id bigint,
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        delivery_options varchar(255),
+        drop_address varchar(255),
+        idempotency_key varchar(255),
+        modified_by varchar(255),
+        pick_up_address varchar(255),
+        reservation_number varchar(255) not null,
+        delivery_personal_category enum ('PERSONAL_GENERAL_CARGO','PERSONAL_MINI_CARGO','PERSONAL_MOVING_CARGO'),
+        delivery_status enum ('ASSIGNMENT_COMPLETED','ASSIGNMENT_PENDING','CANCELED','DELIVERING','DELIVERY_COMPLETED','PAYMENT_PENDING'),
+        delivery_type enum ('BUSINESS','PERSONAL'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.050 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=96, active=1, idle=95, waiting=0)
+2024-11-17 17:04:31.061 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28837e4e
+2024-11-17 17:04:31.098 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=97, active=1, idle=96, waiting=0)
+2024-11-17 17:04:31.107 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40054eb9
+2024-11-17 17:04:31.145 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=98, active=1, idle=97, waiting=0)
+2024-11-17 17:04:31.156 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5db870c5
+2024-11-17 17:04:31.192 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=99, active=1, idle=98, waiting=0)
+2024-11-17 17:04:31.201 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bcc0994
+2024-11-17 17:04:31.218 [traceId=] o.h.SQL - 
+    create table deleted_delivery (
+        delivery_fee decimal(38,2) not null,
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        created_at datetime(6),
+        delivery_date datetime(6) not null,
+        driver_id bigint,
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        delivery_options varchar(255),
+        drop_address varchar(255),
+        idempotency_key varchar(255),
+        modified_by varchar(255),
+        pick_up_address varchar(255),
+        reservation_number varchar(255) not null,
+        delivery_personal_category enum ('PERSONAL_GENERAL_CARGO','PERSONAL_MINI_CARGO','PERSONAL_MOVING_CARGO'),
+        delivery_status enum ('ASSIGNMENT_COMPLETED','ASSIGNMENT_PENDING','CANCELED','DELIVERING','DELIVERY_COMPLETED','PAYMENT_PENDING'),
+        delivery_type enum ('BUSINESS','PERSONAL'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.218 [traceId=] o.h.SQL - 
+    create table deleted_delivery (
+        delivery_fee decimal(38,2) not null,
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        created_at datetime(6),
+        delivery_date datetime(6) not null,
+        driver_id bigint,
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        delivery_options varchar(255),
+        drop_address varchar(255),
+        idempotency_key varchar(255),
+        modified_by varchar(255),
+        pick_up_address varchar(255),
+        reservation_number varchar(255) not null,
+        delivery_personal_category enum ('PERSONAL_GENERAL_CARGO','PERSONAL_MINI_CARGO','PERSONAL_MOVING_CARGO'),
+        delivery_status enum ('ASSIGNMENT_COMPLETED','ASSIGNMENT_PENDING','CANCELED','DELIVERING','DELIVERY_COMPLETED','PAYMENT_PENDING'),
+        delivery_type enum ('BUSINESS','PERSONAL'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.239 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=100, active=1, idle=99, waiting=0)
+2024-11-17 17:04:31.239 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=1, idle=99, waiting=0)
+2024-11-17 17:04:31.311 [traceId=] o.h.SQL - 
+    create table delivery (
+        delivery_fee decimal(38,2) not null,
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        created_at datetime(6),
+        delivery_date datetime(6) not null,
+        driver_id bigint,
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        deleted varchar(255),
+        delivery_options varchar(255),
+        drop_address varchar(255),
+        idempotency_key varchar(255),
+        modified_by varchar(255),
+        pick_up_address varchar(255),
+        reservation_number varchar(255) not null,
+        delivery_personal_category enum ('PERSONAL_GENERAL_CARGO','PERSONAL_MINI_CARGO','PERSONAL_MOVING_CARGO'),
+        delivery_status enum ('ASSIGNMENT_COMPLETED','ASSIGNMENT_PENDING','CANCELED','DELIVERING','DELIVERY_COMPLETED','PAYMENT_PENDING'),
+        delivery_type enum ('BUSINESS','PERSONAL'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.311 [traceId=] o.h.SQL - 
+    create table delivery (
+        delivery_fee decimal(38,2) not null,
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        created_at datetime(6),
+        delivery_date datetime(6) not null,
+        driver_id bigint,
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        deleted varchar(255),
+        delivery_options varchar(255),
+        drop_address varchar(255),
+        idempotency_key varchar(255),
+        modified_by varchar(255),
+        pick_up_address varchar(255),
+        reservation_number varchar(255) not null,
+        delivery_personal_category enum ('PERSONAL_GENERAL_CARGO','PERSONAL_MINI_CARGO','PERSONAL_MOVING_CARGO'),
+        delivery_status enum ('ASSIGNMENT_COMPLETED','ASSIGNMENT_PENDING','CANCELED','DELIVERING','DELIVERY_COMPLETED','PAYMENT_PENDING'),
+        delivery_type enum ('BUSINESS','PERSONAL'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.377 [traceId=] o.h.SQL - 
+    create table driver (
+        balance decimal(38,2),
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        updated_at datetime(6),
+        created_by varchar(255),
+        driver_name varchar(255) not null,
+        image_url varchar(255),
+        modified_by varchar(255),
+        password varchar(255) not null,
+        roles enum ('ADMIN','DRIVER','USER'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.377 [traceId=] o.h.SQL - 
+    create table driver (
+        balance decimal(38,2),
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        updated_at datetime(6),
+        created_by varchar(255),
+        driver_name varchar(255) not null,
+        image_url varchar(255),
+        modified_by varchar(255),
+        password varchar(255) not null,
+        roles enum ('ADMIN','DRIVER','USER'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.455 [traceId=] o.h.SQL - 
+    create table member (
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        provide_id bigint,
+        updated_at datetime(6),
+        created_by varchar(255),
+        email varchar(255),
+        member_name varchar(255) not null,
+        modified_by varchar(255),
+        password varchar(255),
+        provider enum ('KAKAO'),
+        roles enum ('ADMIN','DRIVER','USER'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.455 [traceId=] o.h.SQL - 
+    create table member (
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        provide_id bigint,
+        updated_at datetime(6),
+        created_by varchar(255),
+        email varchar(255),
+        member_name varchar(255) not null,
+        modified_by varchar(255),
+        password varchar(255),
+        provider enum ('KAKAO'),
+        roles enum ('ADMIN','DRIVER','USER'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.519 [traceId=] o.h.SQL - 
+    create table stop_over (
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        delivery_id bigint,
+        id bigint not null auto_increment,
+        drop_address varchar(255),
+        pick_up_address varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.519 [traceId=] o.h.SQL - 
+    create table stop_over (
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        delivery_id bigint,
+        id bigint not null auto_increment,
+        drop_address varchar(255),
+        pick_up_address varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.573 [traceId=] o.h.SQL - 
+    create table wallet (
+        balance decimal(38,2),
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        charge_idempotency_key varchar(255),
+        created_by varchar(255),
+        modified_by varchar(255),
+        payment_idempotency_key varchar(255),
+        card_company enum ('HANA','IBK','KB','LOTTE','NH','SAMSUNG','SHINHAN','WOORI'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.573 [traceId=] o.h.SQL - 
+    create table wallet (
+        balance decimal(38,2),
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        charge_idempotency_key varchar(255),
+        created_by varchar(255),
+        modified_by varchar(255),
+        payment_idempotency_key varchar(255),
+        card_company enum ('HANA','IBK','KB','LOTTE','NH','SAMSUNG','SHINHAN','WOORI'),
+        primary key (id)
+    ) engine=InnoDB
+2024-11-17 17:04:31.637 [traceId=] o.h.SQL - 
+    alter table completed_delivery 
+       add constraint UKr2f5bdu9jn2ijtmet18kgumxw unique (idempotency_key)
+2024-11-17 17:04:31.637 [traceId=] o.h.SQL - 
+    alter table completed_delivery 
+       add constraint UKr2f5bdu9jn2ijtmet18kgumxw unique (idempotency_key)
+2024-11-17 17:04:31.729 [traceId=] o.h.SQL - 
+    alter table completed_delivery 
+       add constraint UKodouf9q00ewymmycjeljjp14y unique (reservation_number)
+2024-11-17 17:04:31.729 [traceId=] o.h.SQL - 
+    alter table completed_delivery 
+       add constraint UKodouf9q00ewymmycjeljjp14y unique (reservation_number)
+2024-11-17 17:04:31.779 [traceId=] o.h.SQL - 
+    alter table deleted_delivery 
+       add constraint UKk80obo5prwt2xwq37tecvbkm0 unique (idempotency_key)
+2024-11-17 17:04:31.779 [traceId=] o.h.SQL - 
+    alter table deleted_delivery 
+       add constraint UKk80obo5prwt2xwq37tecvbkm0 unique (idempotency_key)
+2024-11-17 17:04:31.859 [traceId=] o.h.SQL - 
+    alter table deleted_delivery 
+       add constraint UKhwf1yui1blsqy772obn6m30ve unique (reservation_number)
+2024-11-17 17:04:31.859 [traceId=] o.h.SQL - 
+    alter table deleted_delivery 
+       add constraint UKhwf1yui1blsqy772obn6m30ve unique (reservation_number)
+2024-11-17 17:04:31.926 [traceId=] o.h.SQL - 
+    create index idx_member_delivery_status 
+       on delivery (member_id, delivery_status)
+2024-11-17 17:04:31.926 [traceId=] o.h.SQL - 
+    create index idx_member_delivery_status 
+       on delivery (member_id, delivery_status)
+2024-11-17 17:04:32.004 [traceId=] o.h.SQL - 
+    alter table delivery 
+       add constraint UKi6o4mhewb8ghmsa3rjb6coedx unique (idempotency_key)
+2024-11-17 17:04:32.004 [traceId=] o.h.SQL - 
+    alter table delivery 
+       add constraint UKi6o4mhewb8ghmsa3rjb6coedx unique (idempotency_key)
+2024-11-17 17:04:32.070 [traceId=] o.h.SQL - 
+    alter table delivery 
+       add constraint UK1j31usbo3r8x93ruaspoijpk0 unique (reservation_number)
+2024-11-17 17:04:32.070 [traceId=] o.h.SQL - 
+    alter table delivery 
+       add constraint UK1j31usbo3r8x93ruaspoijpk0 unique (reservation_number)
+2024-11-17 17:04:32.117 [traceId=] o.h.SQL - 
+    alter table member 
+       add constraint UKmbmcqelty0fbrvxp1q58dn57t unique (email)
+2024-11-17 17:04:32.117 [traceId=] o.h.SQL - 
+    alter table member 
+       add constraint UKmbmcqelty0fbrvxp1q58dn57t unique (email)
+2024-11-17 17:04:32.158 [traceId=] o.h.SQL - 
+    alter table member 
+       add constraint UKgwo2bqx6j18klv1e8ql503n61 unique (member_name)
+2024-11-17 17:04:32.158 [traceId=] o.h.SQL - 
+    alter table member 
+       add constraint UKgwo2bqx6j18klv1e8ql503n61 unique (member_name)
+2024-11-17 17:04:32.206 [traceId=] o.h.SQL - 
+    alter table wallet 
+       add constraint UK44t2h5lxmy9p1e0l5ypylke7f unique (charge_idempotency_key)
+2024-11-17 17:04:32.206 [traceId=] o.h.SQL - 
+    alter table wallet 
+       add constraint UK44t2h5lxmy9p1e0l5ypylke7f unique (charge_idempotency_key)
+2024-11-17 17:04:32.247 [traceId=] o.h.SQL - 
+    alter table wallet 
+       add constraint UKidk6oma9we7wo72o8m9w4fsea unique (payment_idempotency_key)
+2024-11-17 17:04:32.247 [traceId=] o.h.SQL - 
+    alter table wallet 
+       add constraint UKidk6oma9we7wo72o8m9w4fsea unique (payment_idempotency_key)
+2024-11-17 17:04:32.289 [traceId=] o.h.SQL - 
+    alter table stop_over 
+       add constraint FKdq2y8aydtsokrmdkc6pfwsg5s 
+       foreign key (delivery_id) 
+       references delivery (id)
+2024-11-17 17:04:32.289 [traceId=] o.h.SQL - 
+    alter table stop_over 
+       add constraint FKdq2y8aydtsokrmdkc6pfwsg5s 
+       foreign key (delivery_id) 
+       references delivery (id)
+2024-11-17 17:04:32.500 [traceId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-17 17:04:35.160 [traceId=] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-17 17:04:38.742 [traceId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-17 17:04:40.060 [traceId=] o.r.Version - Redisson 3.18.0
+2024-11-17 17:04:40.778 [traceId=] o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2024-11-17 17:04:40.936 [traceId=] o.r.c.p.MasterConnectionPool - 64 connections initialized for localhost/127.0.0.1:6379
+2024-11-17 17:04:46.449 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 22 mappings in 'requestMappingHandlerMapping'
+2024-11-17 17:04:47.340 [traceId=] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-11-17 17:04:48.299 [traceId=] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-17 17:04:51.188 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-11-17 17:04:51.478 [traceId=] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-11-17 17:04:54.801 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-17 17:04:54.801 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-11-17 17:04:56.057 [traceId=] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-17 17:04:56.095 [traceId=] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-17 17:04:56.138 [traceId=] c.e.AppStoreAdminApplication - Started AppStoreAdminApplication in 57.194 seconds (process running for 60.405)

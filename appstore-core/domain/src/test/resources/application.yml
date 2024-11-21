@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb;
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop  # 매 테스트마다 DB 초기화
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
+  data:
+    redis:
+      port: 6379
+      host: localhost
+  security:
+    oauth2:
+      client:
+        provider:
+          kakao:
+            authorization-uri: https://kauth.kakao.com/oauth/authorize
+            token-uri: https://kauth.kakao.com/oauth/token
+            user-info-uri: https://kapi.kakao.com/v2/user/me
+            user-name-attribute: id
+        registration:
+          kakao:
+            client-id: c087c71988bd1758920643b7061c4d16
+            client-secret: VYKPWfsnefMNvG6mjqJPgqJIGNIhmEiK
+            client-authentication-method: client_secret_post
+            redirect-uri: http://localhost:8080/login/oauth2/code/kakao
+            authorization-grant-type: authorization_code
+            client-name: kakao
+            scope: profile_nickname
+
+naver:
+  api:
+    client-id: r760buj0na
+    client-secret: 2dlWkYm3Ff40BCKUHfgVdzIvIjieM3E7QcGi1lJH
+
+jwt:
+  secret: 64461f01e1af406da538b9c48d801ce59142452199ff112fb5404c8e7e98e3ff

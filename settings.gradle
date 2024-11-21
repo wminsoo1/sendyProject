@@ -1,0 +1,11 @@
+rootProject.name = 'multi-module-sendy'
+//include 'appstore-core'
+include 'appstore-core:domain'
+findProject(':appstore-core:domain')?.name = 'domain'
+include 'appstore-core:infra'
+findProject(':appstore-core:infra')?.name = 'infra'
+include 'appstore-apis'
+include 'appstore-admin'
+include 'appstore-batch'
+include 'appstore-elasticsearch'
+

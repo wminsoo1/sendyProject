@@ -1,0 +1,28 @@
+### Sign Up
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+< ./signUpRequest.json
+
+### Sign In 성공
+POST http://localhost:8080/api/member/sign-in
+Content-Type: application/json
+
+< ./signInRequest.json
+
+### Sign In 실패 - 존재하지 않는 멤버입니다.
+POST http://localhost:8080/api/member/sign-in
+Content-Type: application/json
+
+{
+  "memberName" : "존재하지 않는 이름",
+  "password" : "존재하지 않는 아이디"
+}
+
+> {%
+  if (response.body == "사용자가 없습니다") {
+      console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}

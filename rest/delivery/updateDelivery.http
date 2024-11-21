@@ -1,0 +1,62 @@
+### Sign Up
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+< ../member/signUpRequest.json
+
+### Sign In
+POST http://localhost:8080/api/member/sign-in
+Content-Type: application/json
+
+< ../member/signInRequest.json
+
+> {%
+  client.global.set("accessToken", response.body.accessToken)
+%}
+
+### SaveDelivery
+POST http://localhost:8080/api/delivery
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ./deliverySaveRequest.json
+
+> {%
+  client.global.set("reservationNumber", response.body.reservationNumber)
+%}
+
+### Update Delivery 성공
+PUT http://localhost:8080/api/delivery/{{reservationNumber}}
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ./deliveryUpdateRequest.json
+
+### Update Delivery 실패 - 토큰을 넣지 않음
+PUT http://localhost:8080/api/delivery/{{reservationNumber}}
+Content-Type: application/json
+
+< ./deliveryUpdateRequest.json
+
+> {%
+  if (response.body == "인증이 필요합니다.") {
+    console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}
+
+### Update Delivery 실패 - 배달이 존재하지 않음
+PUT http://localhost:8080/api/delivery/invalidReservationNumber
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ./deliveryUpdateRequest.json
+
+> {%
+  if (response.body == "배달이 존재하지 않습니다") {
+    console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}

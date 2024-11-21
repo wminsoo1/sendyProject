@@ -1,0 +1,330 @@
+2024-11-15 03:45:01.945 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:01.952 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-11-15 03:45:14.071 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f2f4364: (connection has passed maxLifetime)
+2024-11-15 03:45:14.114 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46f045bd
+2024-11-15 03:45:14.146 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:15.358 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@59b6fce4: (connection has passed maxLifetime)
+2024-11-15 03:45:15.364 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cd4f86
+2024-11-15 03:45:15.406 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:15.641 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@385c592c: (connection has passed maxLifetime)
+2024-11-15 03:45:15.646 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36006a1d
+2024-11-15 03:45:15.688 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:15.874 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@535c0d61: (connection has passed maxLifetime)
+2024-11-15 03:45:15.881 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67e2b0c9
+2024-11-15 03:45:15.921 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:15.952 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51b1dd2b: (connection has passed maxLifetime)
+2024-11-15 03:45:15.957 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6806aabc
+2024-11-15 03:45:15.999 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:16.108 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1e3db610: (connection has passed maxLifetime)
+2024-11-15 03:45:16.114 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63acab8a
+2024-11-15 03:45:16.154 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:16.605 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7e12495f: (connection has passed maxLifetime)
+2024-11-15 03:45:16.611 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@789bce3f
+2024-11-15 03:45:16.651 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:16.854 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69c3bfb6: (connection has passed maxLifetime)
+2024-11-15 03:45:16.863 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e3b1e9d
+2024-11-15 03:45:16.899 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:17.025 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5f28434c: (connection has passed maxLifetime)
+2024-11-15 03:45:17.035 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13f2d614
+2024-11-15 03:45:17.073 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:17.244 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@486aefc3: (connection has passed maxLifetime)
+2024-11-15 03:45:17.254 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@255185a1
+2024-11-15 03:45:17.289 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:17.849 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6697fb8e: (connection has passed maxLifetime)
+2024-11-15 03:45:17.860 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6588ae06
+2024-11-15 03:45:17.865 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4f26521a: (connection has passed maxLifetime)
+2024-11-15 03:45:17.897 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:17.905 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a860ed8
+2024-11-15 03:45:17.944 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:18.130 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@259bd7a2: (connection has passed maxLifetime)
+2024-11-15 03:45:18.139 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76bee9df
+2024-11-15 03:45:18.176 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:18.705 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@358e3dc8: (connection has passed maxLifetime)
+2024-11-15 03:45:18.716 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70870452
+2024-11-15 03:45:18.752 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:18.799 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4aaf0052: (connection has passed maxLifetime)
+2024-11-15 03:45:18.807 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@135efe1f
+2024-11-15 03:45:18.845 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:18.877 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74ee3e0f: (connection has passed maxLifetime)
+2024-11-15 03:45:18.886 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@388585a9
+2024-11-15 03:45:18.923 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.031 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d072ce8: (connection has passed maxLifetime)
+2024-11-15 03:45:19.041 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36e65ecc
+2024-11-15 03:45:19.047 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7d2561d9: (connection has passed maxLifetime)
+2024-11-15 03:45:19.078 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:19.085 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17d42c51
+2024-11-15 03:45:19.124 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.217 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e9419fe: (connection has passed maxLifetime)
+2024-11-15 03:45:19.218 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47058daf: (connection has passed maxLifetime)
+2024-11-15 03:45:19.225 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26bd30e0
+2024-11-15 03:45:19.249 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@73671c8: (connection has passed maxLifetime)
+2024-11-15 03:45:19.265 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=98, active=0, idle=98, waiting=0)
+2024-11-15 03:45:19.265 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@365a757: (connection has passed maxLifetime)
+2024-11-15 03:45:19.272 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@515e0178
+2024-11-15 03:45:19.312 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=98, active=0, idle=98, waiting=0)
+2024-11-15 03:45:19.319 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@743adf1f
+2024-11-15 03:45:19.327 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@58ffd374: (connection has passed maxLifetime)
+2024-11-15 03:45:19.359 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=98, active=0, idle=98, waiting=0)
+2024-11-15 03:45:19.365 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42fc5319
+2024-11-15 03:45:19.406 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:19.415 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25830646
+2024-11-15 03:45:19.453 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.453 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.453 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.453 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.453 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.453 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.453 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.469 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ccd0d53: (connection has passed maxLifetime)
+2024-11-15 03:45:19.476 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20b46868
+2024-11-15 03:45:19.485 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c05ff67: (connection has passed maxLifetime)
+2024-11-15 03:45:19.517 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:19.522 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55fe075
+2024-11-15 03:45:19.564 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.656 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@607df6c9: (connection has passed maxLifetime)
+2024-11-15 03:45:19.663 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@260d77f
+2024-11-15 03:45:19.703 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.844 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@782e2a4d: (connection has passed maxLifetime)
+2024-11-15 03:45:19.854 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b361c3b
+2024-11-15 03:45:19.891 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:19.922 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@11d4b06a: (connection has passed maxLifetime)
+2024-11-15 03:45:19.930 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e9c4828
+2024-11-15 03:45:19.968 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:20.140 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3cc97b1f: (connection has passed maxLifetime)
+2024-11-15 03:45:20.147 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34701265
+2024-11-15 03:45:20.186 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:20.186 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3547bcba: (connection has passed maxLifetime)
+2024-11-15 03:45:20.188 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3dae7f13: (connection has passed maxLifetime)
+2024-11-15 03:45:20.196 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f8c22b1
+2024-11-15 03:45:20.232 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:20.239 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44fbf17b
+2024-11-15 03:45:20.263 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@38440dcc: (connection has passed maxLifetime)
+2024-11-15 03:45:20.279 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:20.285 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5652daa6
+2024-11-15 03:45:20.325 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:20.325 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:20.325 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:20.341 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a734c8c: (connection has passed maxLifetime)
+2024-11-15 03:45:20.349 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c3532ca
+2024-11-15 03:45:20.387 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:20.465 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65e3e84b: (connection has passed maxLifetime)
+2024-11-15 03:45:20.472 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bf56b39
+2024-11-15 03:45:20.512 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:20.542 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60779ca3: (connection has passed maxLifetime)
+2024-11-15 03:45:20.546 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ad28297
+2024-11-15 03:45:20.576 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@623c8a76: (connection has passed maxLifetime)
+2024-11-15 03:45:20.592 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:20.598 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@718f8b63
+2024-11-15 03:45:20.638 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:20.887 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f404b76: (connection has passed maxLifetime)
+2024-11-15 03:45:20.896 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32e8aa02
+2024-11-15 03:45:20.935 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:20.950 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@603ceb36: (connection has passed maxLifetime)
+2024-11-15 03:45:20.959 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32499702
+2024-11-15 03:45:20.997 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.090 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f1bc970: (connection has passed maxLifetime)
+2024-11-15 03:45:21.095 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b01b2d8
+2024-11-15 03:45:21.106 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18771afd: (connection has passed maxLifetime)
+2024-11-15 03:45:21.136 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:21.144 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c1f2c38
+2024-11-15 03:45:21.183 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.293 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b854c37: (connection has passed maxLifetime)
+2024-11-15 03:45:21.298 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23566e27
+2024-11-15 03:45:21.341 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.619 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@fbfbcc5: (connection has passed maxLifetime)
+2024-11-15 03:45:21.626 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@263ad9ac
+2024-11-15 03:45:21.666 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@17f7e409: (connection has passed maxLifetime)
+2024-11-15 03:45:21.666 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.666 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ebecd39: (connection has passed maxLifetime)
+2024-11-15 03:45:21.669 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f4a5217
+2024-11-15 03:45:21.714 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60626c4e: (connection has passed maxLifetime)
+2024-11-15 03:45:21.714 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:21.714 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33fd4e99: (connection has passed maxLifetime)
+2024-11-15 03:45:21.718 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@468dafb5
+2024-11-15 03:45:21.761 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=98, active=0, idle=98, waiting=0)
+2024-11-15 03:45:21.765 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dc5d070
+2024-11-15 03:45:21.808 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:21.811 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27ce75f6
+2024-11-15 03:45:21.853 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.853 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36706429: (connection has passed maxLifetime)
+2024-11-15 03:45:21.856 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35a1f2f
+2024-11-15 03:45:21.901 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.901 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.901 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.901 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.901 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.901 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.901 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.937 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@187ed59: (connection has passed maxLifetime)
+2024-11-15 03:45:21.941 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77c4177c
+2024-11-15 03:45:21.977 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:21.993 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@49b0a225: (connection has passed maxLifetime)
+2024-11-15 03:45:21.997 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cdb329c
+2024-11-15 03:45:22.038 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.039 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68740687: (connection has passed maxLifetime)
+2024-11-15 03:45:22.048 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@659558d5
+2024-11-15 03:45:22.085 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.085 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@296c1928: (connection has passed maxLifetime)
+2024-11-15 03:45:22.091 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@305de255
+2024-11-15 03:45:22.132 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.132 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f4b9464: (connection has passed maxLifetime)
+2024-11-15 03:45:22.139 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2310c9fd
+2024-11-15 03:45:22.179 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.179 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@157fdf2: (connection has passed maxLifetime)
+2024-11-15 03:45:22.186 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3294f6e8
+2024-11-15 03:45:22.194 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fd78a0f: (connection has passed maxLifetime)
+2024-11-15 03:45:22.195 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70d3b542: (connection has passed maxLifetime)
+2024-11-15 03:45:22.226 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=98, active=0, idle=98, waiting=0)
+2024-11-15 03:45:22.233 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18571025
+2024-11-15 03:45:22.273 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:22.281 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@475dbcad
+2024-11-15 03:45:22.319 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.319 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.319 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.428 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@749e270c: (connection has passed maxLifetime)
+2024-11-15 03:45:22.433 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@319a3633
+2024-11-15 03:45:22.476 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.491 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76deb8ee: (connection has passed maxLifetime)
+2024-11-15 03:45:22.494 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10757e58
+2024-11-15 03:45:22.538 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.648 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@24df91a0: (connection has passed maxLifetime)
+2024-11-15 03:45:22.651 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7758b7d
+2024-11-15 03:45:22.695 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.695 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@adca383: (connection has passed maxLifetime)
+2024-11-15 03:45:22.700 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e070352
+2024-11-15 03:45:22.741 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.850 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34546a27: (connection has passed maxLifetime)
+2024-11-15 03:45:22.853 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23b4886
+2024-11-15 03:45:22.884 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:22.896 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7993fcfc: (connection has passed maxLifetime)
+2024-11-15 03:45:22.904 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58979470
+2024-11-15 03:45:22.943 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:23.349 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4179be22: (connection has passed maxLifetime)
+2024-11-15 03:45:23.353 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59d24b75
+2024-11-15 03:45:23.380 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4f8440cc: (connection has passed maxLifetime)
+2024-11-15 03:45:23.384 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:23.388 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33b7a27
+2024-11-15 03:45:23.426 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:23.426 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a2186bc: (connection has passed maxLifetime)
+2024-11-15 03:45:23.430 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63427187
+2024-11-15 03:45:23.473 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:23.646 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@24fc1786: (connection has passed maxLifetime)
+2024-11-15 03:45:23.653 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69326d6
+2024-11-15 03:45:23.693 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:23.739 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@784cae8c: (connection has passed maxLifetime)
+2024-11-15 03:45:23.745 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ef54294
+2024-11-15 03:45:23.786 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:23.989 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@44703800: (connection has passed maxLifetime)
+2024-11-15 03:45:23.990 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1400f9d1: (connection has passed maxLifetime)
+2024-11-15 03:45:23.995 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13974c55
+2024-11-15 03:45:24.020 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@345e190b: (connection has passed maxLifetime)
+2024-11-15 03:45:24.035 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=98, active=0, idle=98, waiting=0)
+2024-11-15 03:45:24.044 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17bd56ef
+2024-11-15 03:45:24.082 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:24.089 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@595f6cc7
+2024-11-15 03:45:24.113 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f434f60: (connection has passed maxLifetime)
+2024-11-15 03:45:24.114 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1786e9e1: (connection has passed maxLifetime)
+2024-11-15 03:45:24.128 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=98, active=0, idle=98, waiting=0)
+2024-11-15 03:45:24.136 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56e12fb
+2024-11-15 03:45:24.175 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:24.182 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c06a9b3
+2024-11-15 03:45:24.223 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.223 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.223 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.223 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.223 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.223 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.238 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@230c16f9: (connection has passed maxLifetime)
+2024-11-15 03:45:24.245 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8ebad66
+2024-11-15 03:45:24.271 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4cf4e2f4: (connection has passed maxLifetime)
+2024-11-15 03:45:24.286 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:24.291 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@718bc45c
+2024-11-15 03:45:24.332 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.363 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@27dec325: (connection has passed maxLifetime)
+2024-11-15 03:45:24.373 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6577f030
+2024-11-15 03:45:24.410 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.658 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@39579980: (connection has passed maxLifetime)
+2024-11-15 03:45:24.662 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff355d6
+2024-11-15 03:45:24.704 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.858 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f5abb49: (connection has passed maxLifetime)
+2024-11-15 03:45:24.865 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72043821
+2024-11-15 03:45:24.904 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:24.935 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fe39909: (connection has passed maxLifetime)
+2024-11-15 03:45:24.942 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69525d3d
+2024-11-15 03:45:24.982 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:25.044 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@492f8240: (connection has passed maxLifetime)
+2024-11-15 03:45:25.053 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57dacde0
+2024-11-15 03:45:25.091 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:25.091 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@50ab253c: (connection has passed maxLifetime)
+2024-11-15 03:45:25.098 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77f1a9b
+2024-11-15 03:45:25.138 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:25.353 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@106c2912: (connection has passed maxLifetime)
+2024-11-15 03:45:25.362 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6321999b
+2024-11-15 03:45:25.399 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:25.401 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a879f0a: (connection has passed maxLifetime)
+2024-11-15 03:45:25.413 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1892b8e1
+2024-11-15 03:45:25.446 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:25.601 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22ff8b60: (connection has passed maxLifetime)
+2024-11-15 03:45:25.604 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3aa7baa4
+2024-11-15 03:45:25.648 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:25.663 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@441e97be: (connection has passed maxLifetime)
+2024-11-15 03:45:25.667 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6682a447
+2024-11-15 03:45:25.710 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:25.710 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3df6e6c6: (connection has passed maxLifetime)
+2024-11-15 03:45:25.718 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cc9cc48
+2024-11-15 03:45:25.756 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:25.897 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37d5959a: (connection has passed maxLifetime)
+2024-11-15 03:45:25.909 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@561a7afa
+2024-11-15 03:45:25.944 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:26.006 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3c64106f: (connection has passed maxLifetime)
+2024-11-15 03:45:26.010 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e1d694f
+2024-11-15 03:45:26.054 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:26.349 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@146beb06: (connection has passed maxLifetime)
+2024-11-15 03:45:26.358 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14e75cf3
+2024-11-15 03:45:26.396 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:26.427 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b35ff53: (connection has passed maxLifetime)
+2024-11-15 03:45:26.435 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f97541f
+2024-11-15 03:45:26.473 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:26.613 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ca4320c: (connection has passed maxLifetime)
+2024-11-15 03:45:26.620 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49b2f726
+2024-11-15 03:45:26.659 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:26.706 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52856d28: (connection has passed maxLifetime)
+2024-11-15 03:45:26.715 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4edfee1a
+2024-11-15 03:45:26.753 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:26.987 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@d461664: (connection has passed maxLifetime)
+2024-11-15 03:45:26.994 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@166ffefa
+2024-11-15 03:45:27.034 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:27.376 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e2df14a: (connection has passed maxLifetime)
+2024-11-15 03:45:27.382 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37ea9c75
+2024-11-15 03:45:27.392 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@14616c53: (connection has passed maxLifetime)
+2024-11-15 03:45:27.423 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:27.434 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47e08059
+2024-11-15 03:45:27.454 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b86c088: (connection has passed maxLifetime)
+2024-11-15 03:45:27.455 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@466f608a: (connection has passed maxLifetime)
+2024-11-15 03:45:27.470 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=98, active=0, idle=98, waiting=0)
+2024-11-15 03:45:27.478 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23444a5
+2024-11-15 03:45:27.515 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:27.515 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64b7ab53: (connection has passed maxLifetime)
+2024-11-15 03:45:27.524 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66b93ad5
+2024-11-15 03:45:27.562 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:27.570 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@546aa892
+2024-11-15 03:45:27.609 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:27.609 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:27.609 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:27.609 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:28.078 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@49011361: (connection has passed maxLifetime)
+2024-11-15 03:45:28.079 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6556b95d: (connection has passed maxLifetime)
+2024-11-15 03:45:28.084 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a70dea5
+2024-11-15 03:45:28.125 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=99, active=0, idle=99, waiting=0)
+2024-11-15 03:45:28.132 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31f08351
+2024-11-15 03:45:28.172 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:28.173 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:28.173 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:28.187 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36daca31: (connection has passed maxLifetime)
+2024-11-15 03:45:28.197 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1947f956
+2024-11-15 03:45:28.233 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:31.447 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1d1a9a7: (connection has passed maxLifetime)
+2024-11-15 03:45:31.456 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@601452fe
+2024-11-15 03:45:31.494 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:31.961 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-15 03:45:31.963 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.

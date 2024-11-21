@@ -1,0 +1,62 @@
+### Sign Up
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+< ../member/signUpRequest.json
+
+### Sign In
+POST http://localhost:8080/api/member/sign-in
+Content-Type: application/json
+
+< ../member/signInRequest.json
+
+> {%
+  client.global.set("accessToken", response.body.accessToken)
+%}
+
+### SaveDelivery
+POST http://localhost:8080/api/delivery
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ../delivery/deliverySaveRequest.json
+
+> {%
+  client.global.set("reservationNumber", response.body.reservationNumber)
+%}
+
+### CreateWallet
+POST http://localhost:8080/api/wallet
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ./createWalletRequest.json
+
+### Charge
+POST http://localhost:8080/api/wallet/1
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ./chargeRequest.json
+
+### Payment 성공
+POST http://localhost:8080/api/wallet/1/{{reservationNumber}}
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ./createWalletRequest.json
+
+### Payment 실패 - 인증이 필요합니다.
+POST http://localhost:8080/api/wallet/1/{{reservationNumber}}
+Content-Type: application/json
+Authorization: Bearer invalidToken
+
+< ./chargeRequest.json
+
+> {%
+  if (response.body == "인증이 필요합니다.") {
+    console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}

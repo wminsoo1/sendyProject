@@ -1,0 +1,141 @@
+2024-11-20 16:05:04.326 [traceId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-20 16:05:04.479 [traceId=] o.h.SQL - 
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s
+2024-11-20 16:05:04.479 [traceId=] o.h.SQL - 
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s
+2024-11-20 16:05:05.117 [traceId=] o.h.SQL - 
+    drop table if exists completed_delivery
+2024-11-20 16:05:05.117 [traceId=] o.h.SQL - 
+    drop table if exists completed_delivery
+2024-11-20 16:05:05.272 [traceId=] o.h.SQL - 
+    drop table if exists deleted_delivery
+2024-11-20 16:05:05.272 [traceId=] o.h.SQL - 
+    drop table if exists deleted_delivery
+2024-11-20 16:05:05.346 [traceId=] o.h.SQL - 
+    drop table if exists delivery
+2024-11-20 16:05:05.346 [traceId=] o.h.SQL - 
+    drop table if exists delivery
+2024-11-20 16:05:05.427 [traceId=] o.h.SQL - 
+    drop table if exists driver
+2024-11-20 16:05:05.427 [traceId=] o.h.SQL - 
+    drop table if exists driver
+2024-11-20 16:05:05.469 [traceId=] o.h.SQL - 
+    drop table if exists member
+2024-11-20 16:05:05.469 [traceId=] o.h.SQL - 
+    drop table if exists member
+2024-11-20 16:05:05.533 [traceId=] o.h.SQL - 
+    drop table if exists stop_over
+2024-11-20 16:05:05.533 [traceId=] o.h.SQL - 
+    drop table if exists stop_over
+2024-11-20 16:05:05.575 [traceId=] o.h.SQL - 
+    drop table if exists wallet
+2024-11-20 16:05:05.575 [traceId=] o.h.SQL - 
+    drop table if exists wallet
+2024-11-20 16:05:05.778 [traceId=] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-20 16:05:05.778 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Before shutdown stats (total=100, active=0, idle=100, waiting=0)
+2024-11-20 16:05:05.818 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@66fa5faf: (connection evicted)
+2024-11-20 16:05:05.824 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@27c75594: (connection evicted)
+2024-11-20 16:05:05.826 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@162a5213: (connection evicted)
+2024-11-20 16:05:05.828 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47e8aadb: (connection evicted)
+2024-11-20 16:05:05.830 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6a50de44: (connection evicted)
+2024-11-20 16:05:05.833 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@43a6919a: (connection evicted)
+2024-11-20 16:05:05.835 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74c759e6: (connection evicted)
+2024-11-20 16:05:05.838 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@103bc78c: (connection evicted)
+2024-11-20 16:05:05.840 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5ca7732c: (connection evicted)
+2024-11-20 16:05:05.848 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52ff4b36: (connection evicted)
+2024-11-20 16:05:05.850 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@8c02b99: (connection evicted)
+2024-11-20 16:05:05.852 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4400901e: (connection evicted)
+2024-11-20 16:05:05.854 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6a711bee: (connection evicted)
+2024-11-20 16:05:05.855 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@30a72440: (connection evicted)
+2024-11-20 16:05:05.856 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1288e209: (connection evicted)
+2024-11-20 16:05:05.858 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@557c264a: (connection evicted)
+2024-11-20 16:05:05.862 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51e81f4f: (connection evicted)
+2024-11-20 16:05:05.865 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3d5fa546: (connection evicted)
+2024-11-20 16:05:05.867 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1bf76d7: (connection evicted)
+2024-11-20 16:05:05.868 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64e8398a: (connection evicted)
+2024-11-20 16:05:05.871 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6ed892a2: (connection evicted)
+2024-11-20 16:05:05.873 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1203891: (connection evicted)
+2024-11-20 16:05:05.874 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@651b4be3: (connection evicted)
+2024-11-20 16:05:05.875 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4afef595: (connection evicted)
+2024-11-20 16:05:05.877 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e3b8f03: (connection evicted)
+2024-11-20 16:05:05.879 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c965ec4: (connection evicted)
+2024-11-20 16:05:05.885 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1b56aea7: (connection evicted)
+2024-11-20 16:05:05.886 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28c5ed4b: (connection evicted)
+2024-11-20 16:05:05.890 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@675a4086: (connection evicted)
+2024-11-20 16:05:05.893 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28757311: (connection evicted)
+2024-11-20 16:05:05.895 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@44fb8de7: (connection evicted)
+2024-11-20 16:05:05.897 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36c724a: (connection evicted)
+2024-11-20 16:05:05.899 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fed811f: (connection evicted)
+2024-11-20 16:05:05.901 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1c479c45: (connection evicted)
+2024-11-20 16:05:05.903 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@654f3d79: (connection evicted)
+2024-11-20 16:05:05.906 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@73d86183: (connection evicted)
+2024-11-20 16:05:05.910 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@448c0fc5: (connection evicted)
+2024-11-20 16:05:05.913 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4cdd8a12: (connection evicted)
+2024-11-20 16:05:05.916 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@12ef734e: (connection evicted)
+2024-11-20 16:05:05.919 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78d58d0: (connection evicted)
+2024-11-20 16:05:05.921 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15d07366: (connection evicted)
+2024-11-20 16:05:05.922 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@592e3642: (connection evicted)
+2024-11-20 16:05:05.924 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@53f6be4f: (connection evicted)
+2024-11-20 16:05:05.926 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@aa567a7: (connection evicted)
+2024-11-20 16:05:05.928 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74823d2f: (connection evicted)
+2024-11-20 16:05:05.929 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@79ca6319: (connection evicted)
+2024-11-20 16:05:05.930 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@9de6d87: (connection evicted)
+2024-11-20 16:05:05.933 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@666f5724: (connection evicted)
+2024-11-20 16:05:05.934 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@726af83e: (connection evicted)
+2024-11-20 16:05:05.939 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1b7a6fd5: (connection evicted)
+2024-11-20 16:05:05.942 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@26b944cc: (connection evicted)
+2024-11-20 16:05:05.943 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f371a48: (connection evicted)
+2024-11-20 16:05:05.945 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f733abd: (connection evicted)
+2024-11-20 16:05:05.946 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@112e7942: (connection evicted)
+2024-11-20 16:05:05.948 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60a07d5a: (connection evicted)
+2024-11-20 16:05:05.951 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22ee5abd: (connection evicted)
+2024-11-20 16:05:05.952 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ae137f: (connection evicted)
+2024-11-20 16:05:05.955 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51d7892e: (connection evicted)
+2024-11-20 16:05:05.958 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7d09a369: (connection evicted)
+2024-11-20 16:05:05.960 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@71a754a3: (connection evicted)
+2024-11-20 16:05:05.962 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10fa5566: (connection evicted)
+2024-11-20 16:05:05.964 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@665d9f8a: (connection evicted)
+2024-11-20 16:05:05.966 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4134f819: (connection evicted)
+2024-11-20 16:05:05.967 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4026d910: (connection evicted)
+2024-11-20 16:05:05.969 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1b4d6254: (connection evicted)
+2024-11-20 16:05:05.972 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a8f32ec: (connection evicted)
+2024-11-20 16:05:05.977 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3a313737: (connection evicted)
+2024-11-20 16:05:05.983 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@91c5194: (connection evicted)
+2024-11-20 16:05:05.984 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@599f30a: (connection evicted)
+2024-11-20 16:05:05.986 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c34aa25: (connection evicted)
+2024-11-20 16:05:05.988 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76fff8a: (connection evicted)
+2024-11-20 16:05:05.990 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@372886aa: (connection evicted)
+2024-11-20 16:05:05.993 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@202c5b19: (connection evicted)
+2024-11-20 16:05:05.994 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@eed6f9b: (connection evicted)
+2024-11-20 16:05:05.996 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f9eee81: (connection evicted)
+2024-11-20 16:05:05.998 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ad30efe: (connection evicted)
+2024-11-20 16:05:05.999 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5bc5fe67: (connection evicted)
+2024-11-20 16:05:06.004 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f0b951b: (connection evicted)
+2024-11-20 16:05:06.005 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@579194cd: (connection evicted)
+2024-11-20 16:05:06.011 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@577a20d8: (connection evicted)
+2024-11-20 16:05:06.015 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34fdffa2: (connection evicted)
+2024-11-20 16:05:06.017 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@703fa5e4: (connection evicted)
+2024-11-20 16:05:06.018 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4dd8bd3e: (connection evicted)
+2024-11-20 16:05:06.032 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fe749a8: (connection evicted)
+2024-11-20 16:05:06.038 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1bd4faa1: (connection evicted)
+2024-11-20 16:05:06.043 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a11a171: (connection evicted)
+2024-11-20 16:05:06.045 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@391b6987: (connection evicted)
+2024-11-20 16:05:06.048 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@618e8982: (connection evicted)
+2024-11-20 16:05:06.053 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@327fe696: (connection evicted)
+2024-11-20 16:05:06.057 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c009776: (connection evicted)
+2024-11-20 16:05:06.059 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6699303e: (connection evicted)
+2024-11-20 16:05:06.061 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4900422a: (connection evicted)
+2024-11-20 16:05:06.066 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@343e9b48: (connection evicted)
+2024-11-20 16:05:06.067 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@9a1cdc: (connection evicted)
+2024-11-20 16:05:06.068 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@11605e5b: (connection evicted)
+2024-11-20 16:05:06.070 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@af355f6: (connection evicted)
+2024-11-20 16:05:06.074 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b9b3f6d: (connection evicted)
+2024-11-20 16:05:06.076 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5fd80fd4: (connection evicted)
+2024-11-20 16:05:06.078 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@449caed3: (connection evicted)
+2024-11-20 16:05:06.080 [traceId=] c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31a2404a: (connection evicted)
+2024-11-20 16:05:06.081 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-11-20 16:05:06.123 [traceId=] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

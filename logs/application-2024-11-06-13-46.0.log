@@ -1,0 +1,838 @@
+2024-11-06 13:46:04.989 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-06 13:46:05.002 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-11-06 13:46:26.900 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/member/sign-up", parameters={}
+2024-11-06 13:46:26.907 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.member.MemberController#memberSave(SignUpRequest)
+2024-11-06 13:46:27.104 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.member.model.dto.request.SignUpRequest@254959df]
+2024-11-06 13:46:27.716 [traceId=57a7a74e-7126-4684-946e-9b549df26627] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.email=?
+2024-11-06 13:46:27.716 [traceId=57a7a74e-7126-4684-946e-9b549df26627] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.email=?
+2024-11-06 13:46:27.819 [traceId=57a7a74e-7126-4684-946e-9b549df26627] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-06 13:46:27.819 [traceId=57a7a74e-7126-4684-946e-9b549df26627] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-06 13:46:28.397 [traceId=57a7a74e-7126-4684-946e-9b549df26627] o.h.SQL - 
+    insert 
+    into
+        member
+        (created_by, created_at, email, member_name, modified_by, password, provide_id, provider, roles, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:28.397 [traceId=57a7a74e-7126-4684-946e-9b549df26627] o.h.SQL - 
+    insert 
+    into
+        member
+        (created_by, created_at, email, member_name, modified_by, password, provide_id, provider, roles, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:28.582 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-06 13:46:28.584 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.member.model.dto.response.MemberSaveResponse@37e99e07]
+2024-11-06 13:46:28.637 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED
+2024-11-06 13:46:30.636 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/member/sign-in", parameters={}
+2024-11-06 13:46:30.637 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.member.MemberController#signIn(SignInRequest)
+2024-11-06 13:46:30.643 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.member.model.dto.request.SignInRequest@60e195a4]
+2024-11-06 13:46:30.980 [traceId=baba436b-24c1-4e00-b2a1-ebf296959605] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-06 13:46:30.980 [traceId=baba436b-24c1-4e00-b2a1-ebf296959605] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-06 13:46:31.012 [traceId=baba436b-24c1-4e00-b2a1-ebf296959605] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_by,
+        d1_0.created_at,
+        d1_0.driver_name,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-06 13:46:31.012 [traceId=baba436b-24c1-4e00-b2a1-ebf296959605] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_by,
+        d1_0.created_at,
+        d1_0.driver_name,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-06 13:46:31.415 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-06 13:46:31.416 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [JwtToken(grantType=Bearer, accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJxcXExMjM0NSIsImF1dGgiOiJVU0VS (truncated)...]
+2024-11-06 13:46:31.419 [traceId=] o.s.w.s.DispatcherServlet - Completed 200 OK
+2024-11-06 13:46:35.015 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-06 13:46:35.015 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-11-06 13:46:39.157 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/delivery", parameters={}
+2024-11-06 13:46:39.159 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.delivery.DeliveryController#saveDelivery(CustomUserDetails, DeliverySaveRequest)
+2024-11-06 13:46:39.215 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.delivery.model.dto.request.DeliverySaveRequest@487cc783]
+2024-11-06 13:46:39.322 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-06 13:46:39.322 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-06 13:46:40.705 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-06 13:46:40.705 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-06 13:46:40.779 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    select
+        count(*) 
+    from
+        delivery d1_0
+2024-11-06 13:46:40.779 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    select
+        count(*) 
+    from
+        delivery d1_0
+2024-11-06 13:46:40.800 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    select
+        d1_0.id 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=? 
+    limit
+        ?
+2024-11-06 13:46:40.800 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    select
+        d1_0.id 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=? 
+    limit
+        ?
+2024-11-06 13:46:40.832 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    insert 
+    into
+        delivery
+        (created_by, created_at, deleted, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude, delivery_personal_category, delivery_type, delivery_date, delivery_fee, delivery_options, delivery_status, driver_id, idempotency_key, member_id, modified_by, reservation_number, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:40.832 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    insert 
+    into
+        delivery
+        (created_by, created_at, deleted, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude, delivery_personal_category, delivery_type, delivery_date, delivery_fee, delivery_options, delivery_status, driver_id, idempotency_key, member_id, modified_by, reservation_number, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:40.943 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-06 13:46:40.951 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-06 13:46:40.971 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (deleted, delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:40.971 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (deleted, delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:41.018 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-06 13:46:41.068 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-06 13:46:41.081 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (deleted, delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:41.081 [traceId=cedcc804-ede0-4187-b450-86cdec683537] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (deleted, delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:41.127 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-06 13:46:41.131 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [DeliverySaveResponse{memberId=1, reservationNumber='241106-0', deliveryCategory=com.example.delivery (truncated)...]
+2024-11-06 13:46:41.182 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED
+2024-11-06 13:46:49.862 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/wallet", parameters={}
+2024-11-06 13:46:49.862 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.wallet.WalletController#createWallet(CustomUserDetails, CreateWalletRequest)
+2024-11-06 13:46:49.872 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.wallet.model.dto.request.CreateWalletRequest@7a7af74a]
+2024-11-06 13:46:49.888 [traceId=37750b10-2d40-448e-975f-a021b8dbcaf0] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-06 13:46:49.888 [traceId=37750b10-2d40-448e-975f-a021b8dbcaf0] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_by,
+        m1_0.created_at,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-06 13:46:49.896 [traceId=37750b10-2d40-448e-975f-a021b8dbcaf0] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_by,
+        w1_0.created_at,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.member_id=?
+2024-11-06 13:46:49.896 [traceId=37750b10-2d40-448e-975f-a021b8dbcaf0] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_by,
+        w1_0.created_at,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.member_id=?
+2024-11-06 13:46:49.918 [traceId=37750b10-2d40-448e-975f-a021b8dbcaf0] o.h.SQL - 
+    insert 
+    into
+        wallet
+        (balance, card_company, charge_idempotency_key, created_by, created_at, member_id, modified_by, payment_idempotency_key, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:49.918 [traceId=37750b10-2d40-448e-975f-a021b8dbcaf0] o.h.SQL - 
+    insert 
+    into
+        wallet
+        (balance, card_company, charge_idempotency_key, created_by, created_at, member_id, modified_by, payment_idempotency_key, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-06 13:46:49.993 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-06 13:46:49.993 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2024-11-06 13:46:49.994 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED
+2024-11-06 13:46:53.171 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/wallet/1", parameters={}
+2024-11-06 13:46:53.173 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.wallet.WalletController#charge(Long, ChargeRequest)
+2024-11-06 13:46:53.187 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.wallet.model.dto.request.ChargeRequest@7d4bcac5]
+2024-11-06 13:46:53.500 [traceId=8b863091-ce15-4d7e-bd2a-27bdd1c4d656] c.e.g.a.l.RedissonLockAspect - 로직 수행
+2024-11-06 13:46:53.510 [traceId=8b863091-ce15-4d7e-bd2a-27bdd1c4d656] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_by,
+        w1_0.created_at,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.id=?
+2024-11-06 13:46:53.510 [traceId=8b863091-ce15-4d7e-bd2a-27bdd1c4d656] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_by,
+        w1_0.created_at,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.id=?
+2024-11-06 13:46:53.521 [traceId=8b863091-ce15-4d7e-bd2a-27bdd1c4d656] o.h.SQL - 
+    select
+        w1_0.id 
+    from
+        wallet w1_0 
+    where
+        w1_0.charge_idempotency_key=? 
+    limit
+        ?
+2024-11-06 13:46:53.521 [traceId=8b863091-ce15-4d7e-bd2a-27bdd1c4d656] o.h.SQL - 
+    select
+        w1_0.id 
+    from
+        wallet w1_0 
+    where
+        w1_0.charge_idempotency_key=? 
+    limit
+        ?
+2024-11-06 13:46:53.554 [traceId=8b863091-ce15-4d7e-bd2a-27bdd1c4d656] o.h.SQL - 
+    update
+        wallet 
+    set
+        balance=?,
+        card_company=?,
+        charge_idempotency_key=?,
+        created_by=?,
+        member_id=?,
+        modified_by=?,
+        payment_idempotency_key=?,
+        updated_at=? 
+    where
+        id=?
+2024-11-06 13:46:53.554 [traceId=8b863091-ce15-4d7e-bd2a-27bdd1c4d656] o.h.SQL - 
+    update
+        wallet 
+    set
+        balance=?,
+        card_company=?,
+        charge_idempotency_key=?,
+        created_by=?,
+        member_id=?,
+        modified_by=?,
+        payment_idempotency_key=?,
+        updated_at=? 
+    where
+        id=?
+2024-11-06 13:46:53.582 [traceId=8b863091-ce15-4d7e-bd2a-27bdd1c4d656] c.e.g.a.l.RedissonLockAspect - 락 해제
+2024-11-06 13:46:53.597 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-06 13:46:53.598 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [10000.00]
+2024-11-06 13:46:53.600 [traceId=] o.s.w.s.DispatcherServlet - Completed 200 OK
+2024-11-06 13:46:56.499 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/wallet/1/241106-0", parameters={}
+2024-11-06 13:46:56.501 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.wallet.WalletController#payment(Long, String)
+2024-11-06 13:46:56.528 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] c.e.g.a.l.RedissonLockAspect - 로직 수행
+2024-11-06 13:46:56.532 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_by,
+        w1_0.created_at,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.id=?
+2024-11-06 13:46:56.532 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_by,
+        w1_0.created_at,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.id=?
+2024-11-06 13:46:56.539 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.created_by,
+        d1_0.created_at,
+        d1_0.deleted,
+        d1_0.drop_address,
+        d1_0.drop_latitude,
+        d1_0.drop_longitude,
+        d1_0.pick_up_address,
+        d1_0.pick_up_latitude,
+        d1_0.pick_up_longitude,
+        d1_0.delivery_personal_category,
+        d1_0.delivery_type,
+        d1_0.delivery_date,
+        d1_0.delivery_fee,
+        d1_0.delivery_options,
+        d1_0.delivery_status,
+        d1_0.driver_id,
+        d1_0.idempotency_key,
+        d1_0.member_id,
+        d1_0.modified_by,
+        d1_0.reservation_number,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=?
+2024-11-06 13:46:56.539 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.created_by,
+        d1_0.created_at,
+        d1_0.deleted,
+        d1_0.drop_address,
+        d1_0.drop_latitude,
+        d1_0.drop_longitude,
+        d1_0.pick_up_address,
+        d1_0.pick_up_latitude,
+        d1_0.pick_up_longitude,
+        d1_0.delivery_personal_category,
+        d1_0.delivery_type,
+        d1_0.delivery_date,
+        d1_0.delivery_fee,
+        d1_0.delivery_options,
+        d1_0.delivery_status,
+        d1_0.driver_id,
+        d1_0.idempotency_key,
+        d1_0.member_id,
+        d1_0.modified_by,
+        d1_0.reservation_number,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=?
+2024-11-06 13:46:56.611 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    select
+        so1_0.id,
+        so1_0.deleted,
+        d1_0.id,
+        d1_0.created_by,
+        d1_0.created_at,
+        d1_0.deleted,
+        d1_0.drop_address,
+        d1_0.drop_latitude,
+        d1_0.drop_longitude,
+        d1_0.pick_up_address,
+        d1_0.pick_up_latitude,
+        d1_0.pick_up_longitude,
+        d1_0.delivery_personal_category,
+        d1_0.delivery_type,
+        d1_0.delivery_date,
+        d1_0.delivery_fee,
+        d1_0.delivery_options,
+        d1_0.delivery_status,
+        d1_0.driver_id,
+        d1_0.idempotency_key,
+        d1_0.member_id,
+        d1_0.modified_by,
+        d1_0.reservation_number,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight,
+        so1_0.drop_address,
+        so1_0.drop_latitude,
+        so1_0.drop_longitude,
+        so1_0.pick_up_address,
+        so1_0.pick_up_latitude,
+        so1_0.pick_up_longitude 
+    from
+        stop_over so1_0 
+    join
+        delivery d1_0 
+            on d1_0.id=so1_0.delivery_id 
+    where
+        d1_0.reservation_number=?
+2024-11-06 13:46:56.611 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    select
+        so1_0.id,
+        so1_0.deleted,
+        d1_0.id,
+        d1_0.created_by,
+        d1_0.created_at,
+        d1_0.deleted,
+        d1_0.drop_address,
+        d1_0.drop_latitude,
+        d1_0.drop_longitude,
+        d1_0.pick_up_address,
+        d1_0.pick_up_latitude,
+        d1_0.pick_up_longitude,
+        d1_0.delivery_personal_category,
+        d1_0.delivery_type,
+        d1_0.delivery_date,
+        d1_0.delivery_fee,
+        d1_0.delivery_options,
+        d1_0.delivery_status,
+        d1_0.driver_id,
+        d1_0.idempotency_key,
+        d1_0.member_id,
+        d1_0.modified_by,
+        d1_0.reservation_number,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight,
+        so1_0.drop_address,
+        so1_0.drop_latitude,
+        so1_0.drop_longitude,
+        so1_0.pick_up_address,
+        so1_0.pick_up_latitude,
+        so1_0.pick_up_longitude 
+    from
+        stop_over so1_0 
+    join
+        delivery d1_0 
+            on d1_0.id=so1_0.delivery_id 
+    where
+        d1_0.reservation_number=?
+2024-11-06 13:46:56.625 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    select
+        w1_0.id 
+    from
+        wallet w1_0 
+    where
+        w1_0.payment_idempotency_key=? 
+    limit
+        ?
+2024-11-06 13:46:56.625 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    select
+        w1_0.id 
+    from
+        wallet w1_0 
+    where
+        w1_0.payment_idempotency_key=? 
+    limit
+        ?
+2024-11-06 13:46:56.635 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    update
+        delivery 
+    set
+        created_by=?,
+        deleted=?,
+        drop_address=?,
+        drop_latitude=?,
+        drop_longitude=?,
+        pick_up_address=?,
+        pick_up_latitude=?,
+        pick_up_longitude=?,
+        delivery_personal_category=?,
+        delivery_type=?,
+        delivery_date=?,
+        delivery_fee=?,
+        delivery_options=?,
+        delivery_status=?,
+        driver_id=?,
+        idempotency_key=?,
+        member_id=?,
+        modified_by=?,
+        reservation_number=?,
+        updated_at=?,
+        vehicle_type=?,
+        vehicle_weight=? 
+    where
+        id=?
+2024-11-06 13:46:56.635 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    update
+        delivery 
+    set
+        created_by=?,
+        deleted=?,
+        drop_address=?,
+        drop_latitude=?,
+        drop_longitude=?,
+        pick_up_address=?,
+        pick_up_latitude=?,
+        pick_up_longitude=?,
+        delivery_personal_category=?,
+        delivery_type=?,
+        delivery_date=?,
+        delivery_fee=?,
+        delivery_options=?,
+        delivery_status=?,
+        driver_id=?,
+        idempotency_key=?,
+        member_id=?,
+        modified_by=?,
+        reservation_number=?,
+        updated_at=?,
+        vehicle_type=?,
+        vehicle_weight=? 
+    where
+        id=?
+2024-11-06 13:46:56.641 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    update
+        wallet 
+    set
+        balance=?,
+        card_company=?,
+        charge_idempotency_key=?,
+        created_by=?,
+        member_id=?,
+        modified_by=?,
+        payment_idempotency_key=?,
+        updated_at=? 
+    where
+        id=?
+2024-11-06 13:46:56.641 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] o.h.SQL - 
+    update
+        wallet 
+    set
+        balance=?,
+        card_company=?,
+        charge_idempotency_key=?,
+        created_by=?,
+        member_id=?,
+        modified_by=?,
+        payment_idempotency_key=?,
+        updated_at=? 
+    where
+        id=?
+2024-11-06 13:46:56.678 [traceId=5a49ee85-46d9-4732-b6a3-89de661f5ec3] c.e.g.a.l.RedissonLockAspect - 락 해제
+2024-11-06 13:46:56.691 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-06 13:46:56.691 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.example.wallet.model.dto.response.PaymentResponse@e32dbb9]
+2024-11-06 13:46:56.697 [traceId=] o.s.w.s.DispatcherServlet - Completed 200 OK
+2024-11-06 13:46:59.779 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/wallet/1/241106-0", parameters={}
+2024-11-06 13:46:59.780 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.wallet.WalletController#payment(Long, String)
+2024-11-06 13:46:59.787 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] c.e.g.a.l.RedissonLockAspect - 로직 수행
+2024-11-06 13:46:59.789 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_by,
+        w1_0.created_at,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.id=?
+2024-11-06 13:46:59.789 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_by,
+        w1_0.created_at,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.id=?
+2024-11-06 13:46:59.805 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.created_by,
+        d1_0.created_at,
+        d1_0.deleted,
+        d1_0.drop_address,
+        d1_0.drop_latitude,
+        d1_0.drop_longitude,
+        d1_0.pick_up_address,
+        d1_0.pick_up_latitude,
+        d1_0.pick_up_longitude,
+        d1_0.delivery_personal_category,
+        d1_0.delivery_type,
+        d1_0.delivery_date,
+        d1_0.delivery_fee,
+        d1_0.delivery_options,
+        d1_0.delivery_status,
+        d1_0.driver_id,
+        d1_0.idempotency_key,
+        d1_0.member_id,
+        d1_0.modified_by,
+        d1_0.reservation_number,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=?
+2024-11-06 13:46:59.805 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.created_by,
+        d1_0.created_at,
+        d1_0.deleted,
+        d1_0.drop_address,
+        d1_0.drop_latitude,
+        d1_0.drop_longitude,
+        d1_0.pick_up_address,
+        d1_0.pick_up_latitude,
+        d1_0.pick_up_longitude,
+        d1_0.delivery_personal_category,
+        d1_0.delivery_type,
+        d1_0.delivery_date,
+        d1_0.delivery_fee,
+        d1_0.delivery_options,
+        d1_0.delivery_status,
+        d1_0.driver_id,
+        d1_0.idempotency_key,
+        d1_0.member_id,
+        d1_0.modified_by,
+        d1_0.reservation_number,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=?
+2024-11-06 13:46:59.854 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] c.e.g.a.l.RedissonLockAspect - 락 해제
+2024-11-06 13:46:59.862 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.example.global.exception.GlobalExceptionHandler#handleCustomException(CustomException)
+2024-11-06 13:46:59.863 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-11-06 13:46:59.864 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["잔액이 부족합니다."]
+2024-11-06 13:46:59.865 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.example.wallet.exception.WalletException]
+2024-11-06 13:46:59.865 [traceId=6f5de6d4-8fd2-4b24-8b01-84f5711539a5] o.s.w.s.DispatcherServlet - Completed 400 BAD_REQUEST

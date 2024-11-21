@@ -1,0 +1,79 @@
+### Sign Up
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+< ../member/signUpRequest.json
+
+### Sign In
+POST http://localhost:8080/api/member/sign-in
+Content-Type: application/json
+
+< ../member/signInRequest.json
+
+> {%
+  client.global.set("accessToken", response.body.accessToken)
+%}
+
+### SaveDelivery
+POST http://localhost:8080/api/delivery
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ./deliverySaveRequest.json
+
+> {%
+  client.global.set("reservationNumber", response.body.reservationNumber)
+%}
+
+### GetDeliveryDetailForMember 성공
+GET http://localhost:8080/api/delivery/member/{{reservationNumber}}
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+### GetDeliveryDetailForMember 실패 - 토큰을 넣지 않음
+GET http://localhost:8080/api/delivery/member/{{reservationNumber}}
+Content-Type: application/json
+
+> {%
+  if (response.body == "인증이 필요합니다.") {
+    console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}
+
+### Sign Up - 두번쨰 멤버
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+{
+  "memberName" : "exampleName2",
+  "password" : "123456example2",
+  "email" : "example2@naver.com"
+}
+
+### Sign In - 두번쨰 멤버
+POST http://localhost:8080/api/member/sign-in
+Content-Type: application/json
+
+{
+  "memberName" : "exampleName2",
+  "password" : "123456example2"
+}
+
+> {%
+  client.global.set("accessToken2", response.body.accessToken)
+%}
+
+### GetDeliveryDetailForMember 실패 - 멤버와 예약 번호가 일치하지 않음. //개별로 동작 시키면 잘 작동하지만 run all request를 사용하면 에러 발생?
+GET http://localhost:8080/api/delivery/member/{{reservationNumber}}
+Content-Type: application/json
+Authorization: Bearer {{accessToken2}}
+
+> {%
+  if (response.body == "멤버와 예약 번호가 일치하지 않습니다.") {
+    console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}

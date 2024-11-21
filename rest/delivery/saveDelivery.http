@@ -1,0 +1,36 @@
+### Sign Up
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+< ../member/signUpRequest.json
+
+### Sign In
+POST http://localhost:8080/api/member/sign-in
+Content-Type: application/json
+
+< ../member/signInRequest.json
+
+> {%
+  client.global.set("accessToken", response.body.accessToken)
+%}
+
+### SaveDelivery 성공
+POST http://localhost:8080/api/delivery
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ./deliverySaveRequest.json
+
+### SaveDelivery 실패 - 토큰을 넣지 않음
+POST http://localhost:8080/api/delivery
+Content-Type: application/json
+
+< ./deliverySaveRequest.json
+
+> {%
+  if (response.body == "인증이 필요합니다.") {
+    console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}

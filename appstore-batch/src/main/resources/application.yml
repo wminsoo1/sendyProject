@@ -1,0 +1,52 @@
+spring:
+  application:
+    name: sendyclone-batch
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+        hibernate.cache.use_second_level_cache: true  # 2차 캐시 사용
+        hibernate.cache.use_query_cache: false  # 쿼리 캐시 사용 여부
+        order_updates: true
+        order_inserts: true #현재 모든 전략이 IDENTITY이기 때문에 적용 안됨
+    open-in-view: false
+  batch:
+    jdbc:
+      initialize-schema: always
+    job:
+      enabled: false
+  security:
+    oauth2:
+      client:
+        provider:
+          kakao:
+            authorization-uri: https://kauth.kakao.com/oauth/authorize
+            token-uri: https://kauth.kakao.com/oauth/token
+            user-info-uri: https://kapi.kakao.com/v2/user/me
+            user-name-attribute: id
+        registration:
+          kakao:
+            client-id: c087c71988bd1758920643b7061c4d16
+            client-secret: VYKPWfsnefMNvG6mjqJPgqJIGNIhmEiK
+            client-authentication-method: client_secret_post
+            redirect-uri: http://localhost:8080/login/oauth2/code/kakao
+            authorization-grant-type: authorization_code
+            client-name: kakao
+            scope: profile_nickname
+  cloud:
+    openfeign:
+      client:
+        config:
+          feignName:
+            connectTimeout: 5000
+            readTimeout: 5000
+
+jwt:
+  secret: 64461f01e1af406da538b9c48d801ce59142452199ff112fb5404c8e7e98e3ff
+
+  # Naver Map API
+naver:
+  api:
+    client-id: r760buj0na
+    client-secret: 2dlWkYm3Ff40BCKUHfgVdzIvIjieM3E7QcGi1lJH

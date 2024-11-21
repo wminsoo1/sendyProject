@@ -1,0 +1,41 @@
+### Sign Up 성공
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+< ./signUpRequest.json
+
+### Sign Up 실패 - 이메일이 이미 존재합니다
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+{
+  "memberName" : "exampleName2",
+  "password" : "123456example2",
+  "email" : "example@naver.com"
+}
+
+> {%
+  if (response.body == "이메일이 이미 존재합니다") {
+    console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}
+
+### Sign Up 실패 - 아이디가 이미 존재합니다
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+{
+  "memberName" : "exampleName",
+  "password" : "123456example2",
+  "email" : "example2@naver.com"
+}
+
+> {%
+  if (response.body == "아이디가 이미 존재합니다") {
+    console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}

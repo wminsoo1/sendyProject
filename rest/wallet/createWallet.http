@@ -1,0 +1,52 @@
+### Sign Up
+POST http://localhost:8080/api/member/sign-up
+Content-Type: application/json
+
+< ../member/signUpRequest.json
+
+### Sign In
+POST http://localhost:8080/api/member/sign-in
+Content-Type: application/json
+
+< ../member/signInRequest.json
+
+> {%
+  client.global.set("accessToken", response.body.accessToken)
+%}
+
+### CreateWallet 성공
+POST http://localhost:8080/api/wallet
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+< ./createWalletRequest.json
+
+### CreateWallet 실패 - 인증이 필요합니다.
+POST http://localhost:8080/api/wallet
+Content-Type: application/json
+Authorization: Bearer invalidToken
+
+< ./createWalletRequest.json
+
+> {%
+  if (response.body == "인증이 필요합니다.") {
+    console.log("예상한 에러 메시지가 확인되었습니다.")
+  }else {
+    throw Error("예상하지 못한 오류입니다.")
+  }
+%}
+
+
+#### CreateWallet 실패 - 멤버가 존재하지 않음 토큰에서 검증을 하는데 해줘야 하나?
+#POST http://localhost:8080/api/wallet
+#Content-Type: application/json
+#Authorization: Bearer {{accessToken}}
+#
+#< ./createWalletRequest.json
+
+#### CreateWallet 실패 - 지갑의 최대 개수를 초과하였습니다.
+#POST http://localhost:8080/api/wallet
+#Content-Type: application/json
+#Authorization: Bearer {{accessToken}}
+#
+#< ./createWalletRequest.json

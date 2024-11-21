@@ -1,0 +1,13 @@
+2024-11-17 17:05:02.031 [traceId=] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-17 17:05:02.072 [traceId=] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-17 17:05:02.072 [traceId=] o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-11-17 17:05:02.073 [traceId=] o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-11-17 17:05:02.073 [traceId=] o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+2024-11-17 17:05:02.077 [traceId=] o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@79c4580b
+2024-11-17 17:05:02.084 [traceId=] o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@fb268b
+2024-11-17 17:05:02.084 [traceId=] o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-11-17 17:05:02.084 [traceId=] o.s.w.s.DispatcherServlet - Completed initialization in 12 ms
+2024-11-17 17:05:24.800 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-17 17:05:24.810 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-11-17 17:05:54.812 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-17 17:05:54.812 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.

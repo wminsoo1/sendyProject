@@ -1,0 +1,133 @@
+2024-11-19 17:09:01.455 [traceId=] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2024-11-19 17:09:02.035 [traceId=] o.r.Version - Redisson 3.18.0
+2024-11-19 17:09:02.451 [traceId=] o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2024-11-19 17:09:02.533 [traceId=] o.r.c.p.MasterConnectionPool - 64 connections initialized for localhost/127.0.0.1:6379
+2024-11-19 17:09:03.820 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 23 mappings in 'requestMappingHandlerMapping'
+2024-11-19 17:09:04.126 [traceId=] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-11-19 17:09:04.490 [traceId=] o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-19 17:09:05.026 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-11-19 17:09:05.123 [traceId=] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-11-19 17:09:06.376 [traceId=] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-19 17:09:06.396 [traceId=] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-19 17:09:06.417 [traceId=] c.e.AppStoreAdminApplication - Started AppStoreAdminApplication in 20.593 seconds (process running for 22.58)
+2024-11-19 17:09:07.405 [traceId=] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-19 17:09:07.405 [traceId=] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-19 17:09:07.406 [traceId=] o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-11-19 17:09:07.406 [traceId=] o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-11-19 17:09:07.406 [traceId=] o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+2024-11-19 17:09:07.411 [traceId=] o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@17e83783
+2024-11-19 17:09:07.412 [traceId=] o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@33bbbc9e
+2024-11-19 17:09:07.413 [traceId=] o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-11-19 17:09:07.413 [traceId=] o.s.w.s.DispatcherServlet - Completed initialization in 8 ms
+2024-11-19 17:09:11.547 [traceId=] o.s.w.s.DispatcherServlet - GET "/login-oauth2", parameters={}
+2024-11-19 17:09:11.551 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.oauth2.LoginController#login()
+2024-11-19 17:09:11.599 [traceId=] o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-11-19 17:09:12.017 [traceId=] o.s.w.s.DispatcherServlet - Completed 200 OK
+2024-11-19 17:09:13.563 [traceId=] o.s.w.c.RestTemplate - HTTP POST https://kauth.kakao.com/oauth/token
+2024-11-19 17:09:13.566 [traceId=] o.s.w.c.RestTemplate - Accept=[application/json, application/*+json]
+2024-11-19 17:09:13.567 [traceId=] o.s.w.c.RestTemplate - Writing [{grant_type=[authorization_code], code=[D1JI2efKUCL3IDvT1uiEY7P_37n_u13ygXUuYiIyBPvohC-2RoktSQAAAAQKKiWPAAABk0N37nNDz1szkZmFRA], redirect_uri=[http://localhost:8080/login/oauth2/code/kakao], client_id=[c087c71988bd1758920643b7061c4d16], client_secret=[VYKPWfsnefMNvG6mjqJPgqJIGNIhmEiK]}] as "application/x-www-form-urlencoded;charset=UTF-8"
+2024-11-19 17:09:13.978 [traceId=] o.s.w.c.RestTemplate - Response 200 OK
+2024-11-19 17:09:13.980 [traceId=] o.s.w.c.RestTemplate - Reading to [org.springframework.security.oauth2.core.endpoint.OAuth2AccessTokenResponse] as "application/json;charset=utf-8"
+2024-11-19 17:09:14.000 [traceId=] o.s.w.c.RestTemplate - HTTP GET https://kapi.kakao.com/v2/user/me
+2024-11-19 17:09:14.001 [traceId=] o.s.w.c.RestTemplate - Accept=[application/json, application/cbor, application/*+json]
+2024-11-19 17:09:14.080 [traceId=] o.s.w.c.RestTemplate - Response 200 OK
+2024-11-19 17:09:14.080 [traceId=] o.s.w.c.RestTemplate - Reading to [java.util.Map<java.lang.String, java.lang.Object>]
+2024-11-19 17:09:14.347 [traceId=] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-19 17:09:14.347 [traceId=] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-19 17:09:14.503 [traceId=] o.h.SQL - 
+    insert 
+    into
+        member
+        (created_at, created_by, email, member_name, modified_by, password, provide_id, provider, roles, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-19 17:09:14.503 [traceId=] o.h.SQL - 
+    insert 
+    into
+        member
+        (created_at, created_by, email, member_name, modified_by, password, provide_id, provider, roles, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-19 17:09:24.663 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-19 17:09:24.664 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-11-19 17:09:40.010 [traceId=] o.s.w.s.DispatcherServlet - GET "/login-oauth2", parameters={}
+2024-11-19 17:09:40.011 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.oauth2.LoginController#login()
+2024-11-19 17:09:40.013 [traceId=] o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-11-19 17:09:40.015 [traceId=] o.s.w.s.DispatcherServlet - Completed 200 OK
+2024-11-19 17:09:48.039 [traceId=] o.s.w.c.RestTemplate - HTTP POST https://kauth.kakao.com/oauth/token
+2024-11-19 17:09:48.039 [traceId=] o.s.w.c.RestTemplate - Accept=[application/json, application/*+json]
+2024-11-19 17:09:48.039 [traceId=] o.s.w.c.RestTemplate - Writing [{grant_type=[authorization_code], code=[1EzNNkMLFhp2u3rRoLozqLR8rTAM6jEv88GvcsDE1PoLDOuUppDLzwAAAAQKKiVTAAABk0N4dUstjdRiIM79qQ], redirect_uri=[http://localhost:8080/login/oauth2/code/kakao], client_id=[c087c71988bd1758920643b7061c4d16], client_secret=[VYKPWfsnefMNvG6mjqJPgqJIGNIhmEiK]}] as "application/x-www-form-urlencoded;charset=UTF-8"
+2024-11-19 17:09:48.138 [traceId=] o.s.w.c.RestTemplate - Response 200 OK
+2024-11-19 17:09:48.139 [traceId=] o.s.w.c.RestTemplate - Reading to [org.springframework.security.oauth2.core.endpoint.OAuth2AccessTokenResponse] as "application/json;charset=utf-8"
+2024-11-19 17:09:48.140 [traceId=] o.s.w.c.RestTemplate - HTTP GET https://kapi.kakao.com/v2/user/me
+2024-11-19 17:09:48.140 [traceId=] o.s.w.c.RestTemplate - Accept=[application/json, application/cbor, application/*+json]
+2024-11-19 17:09:48.205 [traceId=] o.s.w.c.RestTemplate - Response 200 OK
+2024-11-19 17:09:48.205 [traceId=] o.s.w.c.RestTemplate - Reading to [java.util.Map<java.lang.String, java.lang.Object>]
+2024-11-19 17:09:48.208 [traceId=] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-19 17:09:48.208 [traceId=] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-19 17:09:54.666 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-19 17:09:54.666 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.

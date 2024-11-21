@@ -1,0 +1,648 @@
+2024-11-13 13:13:02.525 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/member/sign-up", parameters={}
+2024-11-13 13:13:02.533 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.member.MemberController#memberSave(SignUpRequest)
+2024-11-13 13:13:02.535 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.member.model.dto.request.SignUpRequest@79aebd1f]
+2024-11-13 13:13:02.541 [traceId=01fa531e-493a-4c7e-9ec7-254d23eb6bf4] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.email=?
+2024-11-13 13:13:02.541 [traceId=01fa531e-493a-4c7e-9ec7-254d23eb6bf4] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.email=?
+2024-11-13 13:13:02.547 [traceId=01fa531e-493a-4c7e-9ec7-254d23eb6bf4] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-13 13:13:02.547 [traceId=01fa531e-493a-4c7e-9ec7-254d23eb6bf4] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-13 13:13:02.825 [traceId=01fa531e-493a-4c7e-9ec7-254d23eb6bf4] o.h.SQL - 
+    insert 
+    into
+        member
+        (created_at, created_by, email, member_name, modified_by, password, provide_id, provider, roles, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:02.825 [traceId=01fa531e-493a-4c7e-9ec7-254d23eb6bf4] o.h.SQL - 
+    insert 
+    into
+        member
+        (created_at, created_by, email, member_name, modified_by, password, provide_id, provider, roles, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:02.834 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-13 13:13:02.835 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.member.model.dto.response.MemberSaveResponse@4dcef9b8]
+2024-11-13 13:13:02.836 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED
+2024-11-13 13:13:06.655 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/member/sign-in", parameters={}
+2024-11-13 13:13:06.655 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.member.MemberController#signIn(SignInRequest)
+2024-11-13 13:13:06.657 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.member.model.dto.request.SignInRequest@7db838b3]
+2024-11-13 13:13:06.661 [traceId=049a5d7f-e5cf-498e-bf45-e2a03bb002ed] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-13 13:13:06.661 [traceId=049a5d7f-e5cf-498e-bf45-e2a03bb002ed] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-13 13:13:06.667 [traceId=049a5d7f-e5cf-498e-bf45-e2a03bb002ed] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_at,
+        d1_0.created_by,
+        d1_0.driver_name,
+        d1_0.image_url,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-13 13:13:06.667 [traceId=049a5d7f-e5cf-498e-bf45-e2a03bb002ed] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_at,
+        d1_0.created_by,
+        d1_0.driver_name,
+        d1_0.image_url,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-13 13:13:06.967 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-13 13:13:06.967 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [JwtToken(grantType=Bearer, accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJxcXExMjM0NSIsImF1dGgiOiJVU0VS (truncated)...]
+2024-11-13 13:13:06.969 [traceId=] o.s.w.s.DispatcherServlet - Completed 200 OK
+2024-11-13 13:13:13.286 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-13 13:13:13.286 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-11-13 13:13:13.487 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/delivery", parameters={}
+2024-11-13 13:13:13.487 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.delivery.DeliveryController#saveDelivery(CustomUserDetails, DeliverySaveRequest)
+2024-11-13 13:13:13.491 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.delivery.model.dto.request.DeliverySaveRequest@23f7c878]
+2024-11-13 13:13:13.498 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-13 13:13:13.498 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-13 13:13:13.602 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:13.607 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:13.612 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    select
+        count(*) 
+    from
+        delivery d1_0
+2024-11-13 13:13:13.612 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    select
+        count(*) 
+    from
+        delivery d1_0
+2024-11-13 13:13:13.617 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    select
+        d1_0.id 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=? 
+    limit
+        ?
+2024-11-13 13:13:13.617 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    select
+        d1_0.id 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=? 
+    limit
+        ?
+2024-11-13 13:13:13.622 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    insert 
+    into
+        delivery
+        (created_at, created_by, deleted, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude, delivery_personal_category, delivery_type, delivery_date, delivery_fee, delivery_options, delivery_status, driver_id, idempotency_key, member_id, modified_by, reservation_number, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:13.622 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    insert 
+    into
+        delivery
+        (created_at, created_by, deleted, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude, delivery_personal_category, delivery_type, delivery_date, delivery_fee, delivery_options, delivery_status, driver_id, idempotency_key, member_id, modified_by, reservation_number, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:13.671 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:13.712 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:13.714 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:13.714 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:13.760 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:13.840 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:13.842 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:13.842 [traceId=b1c7fbc2-9193-4eef-8d9f-862d2a65eb0f] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:13.852 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-13 13:13:13.853 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [DeliverySaveResponse{memberId=2, reservationNumber='241113-2', deliveryCategory=com.example.delivery (truncated)...]
+2024-11-13 13:13:13.856 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED
+2024-11-13 13:13:14.924 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/delivery", parameters={}
+2024-11-13 13:13:14.925 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.delivery.DeliveryController#saveDelivery(CustomUserDetails, DeliverySaveRequest)
+2024-11-13 13:13:14.927 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.delivery.model.dto.request.DeliverySaveRequest@6337a1ca]
+2024-11-13 13:13:14.933 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-13 13:13:14.933 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-13 13:13:15.012 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:15.024 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:15.026 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    select
+        count(*) 
+    from
+        delivery d1_0
+2024-11-13 13:13:15.026 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    select
+        count(*) 
+    from
+        delivery d1_0
+2024-11-13 13:13:15.030 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    select
+        d1_0.id 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=? 
+    limit
+        ?
+2024-11-13 13:13:15.030 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    select
+        d1_0.id 
+    from
+        delivery d1_0 
+    where
+        d1_0.reservation_number=? 
+    limit
+        ?
+2024-11-13 13:13:15.035 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    insert 
+    into
+        delivery
+        (created_at, created_by, deleted, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude, delivery_personal_category, delivery_type, delivery_date, delivery_fee, delivery_options, delivery_status, driver_id, idempotency_key, member_id, modified_by, reservation_number, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:15.035 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    insert 
+    into
+        delivery
+        (created_at, created_by, deleted, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude, delivery_personal_category, delivery_type, delivery_date, delivery_fee, delivery_options, delivery_status, driver_id, idempotency_key, member_id, modified_by, reservation_number, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:15.078 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:15.080 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:15.082 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:15.082 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:15.125 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:15.126 [traceId=] o.s.w.c.HttpMessageConverterExtractor - Reading to [com.fasterxml.jackson.databind.JsonNode]
+2024-11-13 13:13:15.128 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:15.128 [traceId=4a1e5621-b020-4575-bf31-78624ec0e185] o.h.SQL - 
+    insert 
+    into
+        stop_over
+        (delivery_id, drop_address, drop_latitude, drop_longitude, pick_up_address, pick_up_latitude, pick_up_longitude) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:15.140 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-13 13:13:15.141 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [DeliverySaveResponse{memberId=2, reservationNumber='241113-3', deliveryCategory=com.example.delivery (truncated)...]
+2024-11-13 13:13:15.142 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED
+2024-11-13 13:13:17.928 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/wallet", parameters={}
+2024-11-13 13:13:17.928 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.wallet.WalletController#createWallet(CustomUserDetails, CreateWalletRequest)
+2024-11-13 13:13:17.930 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.wallet.model.dto.request.CreateWalletRequest@aa7f104]
+2024-11-13 13:13:17.934 [traceId=ea0604f0-2bf7-49a3-986f-e805a1d45eec] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-13 13:13:17.934 [traceId=ea0604f0-2bf7-49a3-986f-e805a1d45eec] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-13 13:13:17.940 [traceId=ea0604f0-2bf7-49a3-986f-e805a1d45eec] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_at,
+        w1_0.created_by,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.member_id=?
+2024-11-13 13:13:17.940 [traceId=ea0604f0-2bf7-49a3-986f-e805a1d45eec] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_at,
+        w1_0.created_by,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.member_id=?
+2024-11-13 13:13:17.944 [traceId=ea0604f0-2bf7-49a3-986f-e805a1d45eec] o.h.SQL - 
+    insert 
+    into
+        wallet
+        (balance, card_company, charge_idempotency_key, created_at, created_by, member_id, modified_by, payment_idempotency_key, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:17.944 [traceId=ea0604f0-2bf7-49a3-986f-e805a1d45eec] o.h.SQL - 
+    insert 
+    into
+        wallet
+        (balance, card_company, charge_idempotency_key, created_at, created_by, member_id, modified_by, payment_idempotency_key, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:17.955 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-13 13:13:17.955 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2024-11-13 13:13:17.955 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED
+2024-11-13 13:13:19.235 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/wallet", parameters={}
+2024-11-13 13:13:19.235 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.wallet.WalletController#createWallet(CustomUserDetails, CreateWalletRequest)
+2024-11-13 13:13:19.237 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.wallet.model.dto.request.CreateWalletRequest@9f9fb6a]
+2024-11-13 13:13:19.240 [traceId=f0a86405-4789-4643-818a-0c12fc779740] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-13 13:13:19.240 [traceId=f0a86405-4789-4643-818a-0c12fc779740] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.id=?
+2024-11-13 13:13:19.247 [traceId=f0a86405-4789-4643-818a-0c12fc779740] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_at,
+        w1_0.created_by,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.member_id=?
+2024-11-13 13:13:19.247 [traceId=f0a86405-4789-4643-818a-0c12fc779740] o.h.SQL - 
+    select
+        w1_0.id,
+        w1_0.balance,
+        w1_0.card_company,
+        w1_0.charge_idempotency_key,
+        w1_0.created_at,
+        w1_0.created_by,
+        w1_0.member_id,
+        w1_0.modified_by,
+        w1_0.payment_idempotency_key,
+        w1_0.updated_at 
+    from
+        wallet w1_0 
+    where
+        w1_0.member_id=?
+2024-11-13 13:13:19.251 [traceId=f0a86405-4789-4643-818a-0c12fc779740] o.h.SQL - 
+    insert 
+    into
+        wallet
+        (balance, card_company, charge_idempotency_key, created_at, created_by, member_id, modified_by, payment_idempotency_key, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:19.251 [traceId=f0a86405-4789-4643-818a-0c12fc779740] o.h.SQL - 
+    insert 
+    into
+        wallet
+        (balance, card_company, charge_idempotency_key, created_at, created_by, member_id, modified_by, payment_idempotency_key, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-13 13:13:19.261 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-13 13:13:19.262 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2024-11-13 13:13:19.262 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED
+2024-11-13 13:13:39.062 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/member/sign-in", parameters={}
+2024-11-13 13:13:39.063 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.member.MemberController#signIn(SignInRequest)
+2024-11-13 13:13:39.066 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.member.model.dto.request.SignInRequest@77e63688]
+2024-11-13 13:13:39.075 [traceId=108e0b5c-2625-4bf5-8d6c-a842e383a750] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-13 13:13:39.075 [traceId=108e0b5c-2625-4bf5-8d6c-a842e383a750] o.h.SQL - 
+    select
+        m1_0.id,
+        m1_0.created_at,
+        m1_0.created_by,
+        m1_0.email,
+        m1_0.member_name,
+        m1_0.modified_by,
+        m1_0.password,
+        m1_0.provide_id,
+        m1_0.provider,
+        m1_0.roles,
+        m1_0.updated_at 
+    from
+        member m1_0 
+    where
+        m1_0.member_name=?
+2024-11-13 13:13:39.081 [traceId=108e0b5c-2625-4bf5-8d6c-a842e383a750] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_at,
+        d1_0.created_by,
+        d1_0.driver_name,
+        d1_0.image_url,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-13 13:13:39.081 [traceId=108e0b5c-2625-4bf5-8d6c-a842e383a750] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_at,
+        d1_0.created_by,
+        d1_0.driver_name,
+        d1_0.image_url,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-13 13:13:39.413 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-13 13:13:39.414 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [JwtToken(grantType=Bearer, accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJxcXExMjM0IiwiYXV0aCI6IlVTRVIi (truncated)...]
+2024-11-13 13:13:39.416 [traceId=] o.s.w.s.DispatcherServlet - Completed 200 OK
+2024-11-13 13:13:43.295 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-13 13:13:43.295 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.

@@ -1,0 +1,566 @@
+2024-10-30 22:20:24.451  o.h.v.i.u.Version - HV000001: Hibernate Validator 8.0.1.Final 
+2024-10-30 22:20:24.617  c.e.AppStoreAdminApplication - Starting AppStoreAdminApplication using Java 21.0.4 with PID 10348 (C:\Users\우준석\OneDrive\바탕 화면\sendyClone\sendyClone\appstore-admin\out\production\classes started by 우준석 in C:\Users\우준석\OneDrive\바탕 화면\sendyClone\sendyClone) 
+2024-10-30 22:20:24.618  c.e.AppStoreAdminApplication - The following 1 profile is active: "local" 
+2024-10-30 22:20:27.086  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode 
+2024-10-30 22:20:27.091  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-30 22:20:27.504  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 398 ms. Found 5 JPA repository interfaces. 
+2024-10-30 22:20:27.537  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode 
+2024-10-30 22:20:27.540  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+2024-10-30 22:20:27.581  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.delivery.repository.DeliveryDocumentRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-30 22:20:27.581  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.delivery.repository.StopOverRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository 
+2024-10-30 22:20:27.582  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.driver.repository.DriverRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository 
+2024-10-30 22:20:27.582  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository 
+2024-10-30 22:20:27.582  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.wallet.repository.WalletRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository 
+2024-10-30 22:20:27.582  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces. 
+2024-10-30 22:20:28.159  o.s.c.c.s.GenericScope - BeanFactory id=4c5b1ecc-8cf9-39d4-9870-1287de22d29c 
+2024-10-30 22:20:29.785  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-30 22:20:29.803  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-30 22:20:29.810  o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-30 22:20:29.810  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28] 
+2024-10-30 22:20:29.934  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-30 22:20:29.934  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5169 ms 
+2024-10-30 22:20:30.089  c.z.h.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@36baf30c 
+2024-10-30 22:20:30.274  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-30 22:20:30.417  o.h.Version - HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-10-30 22:20:30.496  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-30 22:20:31.164  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-30 22:20:31.230  c.z.h.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool. 
+2024-10-30 22:20:31.231  c.z.h.HikariConfig - HikariPool-1 - configuration: 
+2024-10-30 22:20:31.236  c.z.h.HikariConfig - allowPoolSuspension.............false 
+2024-10-30 22:20:31.236  c.z.h.HikariConfig - autoCommit......................true 
+2024-10-30 22:20:31.236  c.z.h.HikariConfig - catalog.........................none 
+2024-10-30 22:20:31.236  c.z.h.HikariConfig - connectionInitSql...............none 
+2024-10-30 22:20:31.236  c.z.h.HikariConfig - connectionTestQuery.............none 
+2024-10-30 22:20:31.237  c.z.h.HikariConfig - connectionTimeout...............3000 
+2024-10-30 22:20:31.237  c.z.h.HikariConfig - dataSource......................none 
+2024-10-30 22:20:31.237  c.z.h.HikariConfig - dataSourceClassName.............none 
+2024-10-30 22:20:31.237  c.z.h.HikariConfig - dataSourceJNDI..................none 
+2024-10-30 22:20:31.238  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>} 
+2024-10-30 22:20:31.238  c.z.h.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver" 
+2024-10-30 22:20:31.238  c.z.h.HikariConfig - exceptionOverrideClassName......none 
+2024-10-30 22:20:31.238  c.z.h.HikariConfig - healthCheckProperties...........{} 
+2024-10-30 22:20:31.238  c.z.h.HikariConfig - healthCheckRegistry.............none 
+2024-10-30 22:20:31.238  c.z.h.HikariConfig - idleTimeout.....................200000 
+2024-10-30 22:20:31.239  c.z.h.HikariConfig - initializationFailTimeout.......1 
+2024-10-30 22:20:31.239  c.z.h.HikariConfig - isolateInternalQueries..........false 
+2024-10-30 22:20:31.239  c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/sendy_db?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&autoReconnect=true&connectTimeout=10000&socketTimeout=30000&prepStmtCacheSize=100&prepStmtCacheSqlLimit=2048&cachePrepStmts=true&rewriteBatchedStatements=true&useServerPrepStmts=true 
+2024-10-30 22:20:31.239  c.z.h.HikariConfig - keepaliveTime...................0 
+2024-10-30 22:20:31.239  c.z.h.HikariConfig - leakDetectionThreshold..........2000 
+2024-10-30 22:20:31.239  c.z.h.HikariConfig - maxLifetime.....................240000 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - maximumPoolSize.................100 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - metricRegistry..................none 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - metricsTrackerFactory...........none 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - minimumIdle.....................100 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - password........................<masked> 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - poolName........................"HikariPool-1" 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - readOnly........................false 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - registerMbeans..................false 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - scheduledExecutor...............none 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - schema..........................none 
+2024-10-30 22:20:31.240  c.z.h.HikariConfig - threadFactory...................internal 
+2024-10-30 22:20:31.241  c.z.h.HikariConfig - transactionIsolation............default 
+2024-10-30 22:20:31.241  c.z.h.HikariConfig - username........................"root" 
+2024-10-30 22:20:31.241  c.z.h.HikariConfig - validationTimeout...............3000 
+2024-10-30 22:20:31.241  c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-30 22:20:31.599  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72bdbfe9 
+2024-10-30 22:20:31.603  c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-10-30 22:20:31.711  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0) 
+2024-10-30 22:20:31.725  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62865c76 
+2024-10-30 22:20:31.729  o.h.o.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-10-30 22:20:31.731  o.h.o.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead 
+2024-10-30 22:20:31.758  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=2, active=1, idle=1, waiting=0) 
+2024-10-30 22:20:31.773  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23bb564d 
+2024-10-30 22:20:31.781  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@21f479cd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@102fd71d) 
+2024-10-30 22:20:31.782  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@8e00c02) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@464d60fb) 
+2024-10-30 22:20:31.782  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@447543ee) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2a0ce342) 
+2024-10-30 22:20:31.782  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@22846a1d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@fe38c0e) 
+2024-10-30 22:20:31.782  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6167c42f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2cbc2db2) 
+2024-10-30 22:20:31.782  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2de96eba) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3ef914f5) 
+2024-10-30 22:20:31.782  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@61e0f9b9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2c7c898a) 
+2024-10-30 22:20:31.782  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4a86be01) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3cae4518) 
+2024-10-30 22:20:31.782  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5a654e05) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@121dac1a) 
+2024-10-30 22:20:31.804  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0) 
+2024-10-30 22:20:31.812  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@125231ad 
+2024-10-30 22:20:31.850  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0) 
+2024-10-30 22:20:31.862  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4394a902 
+2024-10-30 22:20:31.897  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0) 
+2024-10-30 22:20:31.909  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fd32c86 
+2024-10-30 22:20:31.944  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0) 
+2024-10-30 22:20:31.953  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47da9627 
+2024-10-30 22:20:31.991  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0) 
+2024-10-30 22:20:32.000  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@206ae0cf 
+2024-10-30 22:20:32.038  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0) 
+2024-10-30 22:20:32.045  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15698bde 
+2024-10-30 22:20:32.084  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0) 
+2024-10-30 22:20:32.108  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e09d817 
+2024-10-30 22:20:32.146  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+2024-10-30 22:20:32.154  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b0e864c 
+2024-10-30 22:20:32.193  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=11, active=0, idle=11, waiting=0) 
+2024-10-30 22:20:32.201  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@435638f0 
+2024-10-30 22:20:32.239  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=12, active=0, idle=12, waiting=0) 
+2024-10-30 22:20:32.249  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68c4850d 
+2024-10-30 22:20:32.286  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=13, active=0, idle=13, waiting=0) 
+2024-10-30 22:20:32.299  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5538328b 
+2024-10-30 22:20:32.333  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=14, active=0, idle=14, waiting=0) 
+2024-10-30 22:20:32.341  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54385e0d 
+2024-10-30 22:20:32.380  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=15, active=0, idle=15, waiting=0) 
+2024-10-30 22:20:32.390  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fdd7a70 
+2024-10-30 22:20:32.427  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=16, active=0, idle=16, waiting=0) 
+2024-10-30 22:20:32.435  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73264ccd 
+2024-10-30 22:20:32.474  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=17, active=0, idle=17, waiting=0) 
+2024-10-30 22:20:32.481  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2150433e 
+2024-10-30 22:20:32.520  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=18, active=0, idle=18, waiting=0) 
+2024-10-30 22:20:32.531  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@407b4f6d 
+2024-10-30 22:20:32.567  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=19, active=0, idle=19, waiting=0) 
+2024-10-30 22:20:32.577  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43f3e268 
+2024-10-30 22:20:32.612  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0) 
+2024-10-30 22:20:32.620  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@99e8b64 
+2024-10-30 22:20:32.659  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=21, active=0, idle=21, waiting=0) 
+2024-10-30 22:20:32.668  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d34466e 
+2024-10-30 22:20:32.704  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=22, active=0, idle=22, waiting=0) 
+2024-10-30 22:20:32.710  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36cc8679 
+2024-10-30 22:20:32.750  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=23, active=0, idle=23, waiting=0) 
+2024-10-30 22:20:32.760  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8791f31 
+2024-10-30 22:20:32.798  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=24, active=0, idle=24, waiting=0) 
+2024-10-30 22:20:32.804  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36c268fd 
+2024-10-30 22:20:32.844  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=25, active=0, idle=25, waiting=0) 
+2024-10-30 22:20:32.851  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2859bd41 
+2024-10-30 22:20:32.891  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=26, active=0, idle=26, waiting=0) 
+2024-10-30 22:20:32.898  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17a613dd 
+2024-10-30 22:20:32.938  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=27, active=0, idle=27, waiting=0) 
+2024-10-30 22:20:32.946  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57f3a07a 
+2024-10-30 22:20:32.985  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=28, active=0, idle=28, waiting=0) 
+2024-10-30 22:20:32.992  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72ef726c 
+2024-10-30 22:20:33.032  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=29, active=0, idle=29, waiting=0) 
+2024-10-30 22:20:33.038  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2769a22b 
+2024-10-30 22:20:33.078  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=30, active=0, idle=30, waiting=0) 
+2024-10-30 22:20:33.086  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e6362b5 
+2024-10-30 22:20:33.125  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=31, active=0, idle=31, waiting=0) 
+2024-10-30 22:20:33.140  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@602aa603 
+2024-10-30 22:20:33.184  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=32, active=0, idle=32, waiting=0) 
+2024-10-30 22:20:33.196  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4279cf77 
+2024-10-30 22:20:33.230  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=33, active=0, idle=33, waiting=0) 
+2024-10-30 22:20:33.236  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c096b39 
+2024-10-30 22:20:33.277  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=34, active=0, idle=34, waiting=0) 
+2024-10-30 22:20:33.283  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44269a17 
+2024-10-30 22:20:33.323  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=35, active=0, idle=35, waiting=0) 
+2024-10-30 22:20:33.329  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c6df30e 
+2024-10-30 22:20:33.370  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=36, active=0, idle=36, waiting=0) 
+2024-10-30 22:20:33.375  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73fc483d 
+2024-10-30 22:20:33.417  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=37, active=0, idle=37, waiting=0) 
+2024-10-30 22:20:33.423  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bf469d9 
+2024-10-30 22:20:33.464  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=38, active=0, idle=38, waiting=0) 
+2024-10-30 22:20:33.471  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d16d3fe 
+2024-10-30 22:20:33.510  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=39, active=0, idle=39, waiting=0) 
+2024-10-30 22:20:33.516  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d3c558b 
+2024-10-30 22:20:33.558  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=40, active=0, idle=40, waiting=0) 
+2024-10-30 22:20:33.564  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c612e02 
+2024-10-30 22:20:33.605  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=41, active=0, idle=41, waiting=0) 
+2024-10-30 22:20:33.611  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54253fef 
+2024-10-30 22:20:33.652  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=42, active=0, idle=42, waiting=0) 
+2024-10-30 22:20:33.659  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@af85d55 
+2024-10-30 22:20:33.698  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=43, active=0, idle=43, waiting=0) 
+2024-10-30 22:20:33.705  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39e3ba2d 
+2024-10-30 22:20:33.744  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=44, active=0, idle=44, waiting=0) 
+2024-10-30 22:20:33.751  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d753313 
+2024-10-30 22:20:33.791  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=45, active=0, idle=45, waiting=0) 
+2024-10-30 22:20:33.799  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cba249d 
+2024-10-30 22:20:33.838  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=46, active=0, idle=46, waiting=0) 
+2024-10-30 22:20:33.845  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13478629 
+2024-10-30 22:20:33.885  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=47, active=0, idle=47, waiting=0) 
+2024-10-30 22:20:33.892  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d83bb 
+2024-10-30 22:20:33.931  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=48, active=0, idle=48, waiting=0) 
+2024-10-30 22:20:33.937  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e08881d 
+2024-10-30 22:20:33.978  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=49, active=0, idle=49, waiting=0) 
+2024-10-30 22:20:33.984  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69c378fa 
+2024-10-30 22:20:34.025  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=50, active=0, idle=50, waiting=0) 
+2024-10-30 22:20:34.031  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bbe26ec 
+2024-10-30 22:20:34.073  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=51, active=0, idle=51, waiting=0) 
+2024-10-30 22:20:34.078  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f50c23 
+2024-10-30 22:20:34.104  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-30 22:20:34.119  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=52, active=0, idle=52, waiting=0) 
+2024-10-30 22:20:34.126  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d0ec808 
+2024-10-30 22:20:34.147  o.h.SQL - 
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s 
+2024-10-30 22:20:34.147  o.h.SQL - 
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s 
+2024-10-30 22:20:34.167  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=53, active=1, idle=52, waiting=0) 
+2024-10-30 22:20:34.173  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a29975b 
+2024-10-30 22:20:34.213  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=54, active=1, idle=53, waiting=0) 
+2024-10-30 22:20:34.223  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ec4e49c 
+2024-10-30 22:20:34.230  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s" via JDBC [Table 'sendy_db.stop_over' doesn't exist] 
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table stop_over 
+       drop 
+       foreign key FKdq2y8aydtsokrmdkc6pfwsg5s" via JDBC [Table 'sendy_db.stop_over' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:476)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:242)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:215)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.AppStoreAdminApplication.main(AppStoreAdminApplication.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'sendy_db.stop_over' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 39 common frames omitted
+2024-10-30 22:20:34.234  o.h.SQL - 
+    drop table if exists delivery 
+2024-10-30 22:20:34.234  o.h.SQL - 
+    drop table if exists delivery 
+2024-10-30 22:20:34.251  o.h.SQL - 
+    drop table if exists driver 
+2024-10-30 22:20:34.251  o.h.SQL - 
+    drop table if exists driver 
+2024-10-30 22:20:34.256  o.h.SQL - 
+    drop table if exists member 
+2024-10-30 22:20:34.256  o.h.SQL - 
+    drop table if exists member 
+2024-10-30 22:20:34.259  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=55, active=1, idle=54, waiting=0) 
+2024-10-30 22:20:34.262  o.h.SQL - 
+    drop table if exists stop_over 
+2024-10-30 22:20:34.262  o.h.SQL - 
+    drop table if exists stop_over 
+2024-10-30 22:20:34.265  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2491f005 
+2024-10-30 22:20:34.266  o.h.SQL - 
+    drop table if exists wallet 
+2024-10-30 22:20:34.266  o.h.SQL - 
+    drop table if exists wallet 
+2024-10-30 22:20:34.281  o.h.SQL - 
+    create table delivery (
+        delivery_fee decimal(38,2) not null,
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        created_at datetime(6),
+        delivery_date datetime(6) not null,
+        driver_id bigint,
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        delivery_options varchar(255),
+        drop_address varchar(255),
+        modified_by varchar(255),
+        pick_up_address varchar(255),
+        reservation_number varchar(255) not null,
+        delivery_personal_category enum ('PERSONAL_GENERAL_CARGO','PERSONAL_MINI_CARGO','PERSONAL_MOVING_CARGO'),
+        delivery_status enum ('ASSIGNMENT_COMPLETED','ASSIGNMENT_PENDING','CANCELED','DELIVERING','DELIVERY_COMPLETED','PAYMENT_PENDING'),
+        delivery_type enum ('BUSINESS','PERSONAL'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.281  o.h.SQL - 
+    create table delivery (
+        delivery_fee decimal(38,2) not null,
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        created_at datetime(6),
+        delivery_date datetime(6) not null,
+        driver_id bigint,
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        delivery_options varchar(255),
+        drop_address varchar(255),
+        modified_by varchar(255),
+        pick_up_address varchar(255),
+        reservation_number varchar(255) not null,
+        delivery_personal_category enum ('PERSONAL_GENERAL_CARGO','PERSONAL_MINI_CARGO','PERSONAL_MOVING_CARGO'),
+        delivery_status enum ('ASSIGNMENT_COMPLETED','ASSIGNMENT_PENDING','CANCELED','DELIVERING','DELIVERY_COMPLETED','PAYMENT_PENDING'),
+        delivery_type enum ('BUSINESS','PERSONAL'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.306  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=56, active=1, idle=55, waiting=0) 
+2024-10-30 22:20:34.312  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@190936a 
+2024-10-30 22:20:34.351  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=57, active=1, idle=56, waiting=0) 
+2024-10-30 22:20:34.359  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@599fdc40 
+2024-10-30 22:20:34.393  o.h.SQL - 
+    create table driver (
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        updated_at datetime(6),
+        created_by varchar(255),
+        driver_name varchar(255) not null,
+        modified_by varchar(255),
+        password varchar(255) not null,
+        roles enum ('ADMIN','DRIVER','USER'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.393  o.h.SQL - 
+    create table driver (
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        updated_at datetime(6),
+        created_by varchar(255),
+        driver_name varchar(255) not null,
+        modified_by varchar(255),
+        password varchar(255) not null,
+        roles enum ('ADMIN','DRIVER','USER'),
+        vehicle_type enum ('CARGO','FREEZER','LIFT','REFRIGERATED','TOP_CAR','WATERPROOF_COVER','WING_BODY'),
+        vehicle_weight enum ('DAMAS','FIVE_TON','ONE_TON','RAMBO','THREE_TON'),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.398  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=58, active=1, idle=57, waiting=0) 
+2024-10-30 22:20:34.405  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fec3c05 
+2024-10-30 22:20:34.441  o.h.SQL - 
+    create table member (
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        provide_id bigint,
+        updated_at datetime(6),
+        created_by varchar(255),
+        email varchar(255),
+        member_name varchar(255) not null,
+        modified_by varchar(255),
+        password varchar(255),
+        provider enum ('KAKAO'),
+        roles enum ('ADMIN','DRIVER','USER'),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.441  o.h.SQL - 
+    create table member (
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        provide_id bigint,
+        updated_at datetime(6),
+        created_by varchar(255),
+        email varchar(255),
+        member_name varchar(255) not null,
+        modified_by varchar(255),
+        password varchar(255),
+        provider enum ('KAKAO'),
+        roles enum ('ADMIN','DRIVER','USER'),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.445  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=59, active=1, idle=58, waiting=0) 
+2024-10-30 22:20:34.452  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1217bec7 
+2024-10-30 22:20:34.492  o.h.SQL - 
+    create table stop_over (
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        delivery_id bigint,
+        id bigint not null auto_increment,
+        drop_address varchar(255),
+        pick_up_address varchar(255),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.492  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=60, active=1, idle=59, waiting=0) 
+2024-10-30 22:20:34.492  o.h.SQL - 
+    create table stop_over (
+        drop_latitude float(53),
+        drop_longitude float(53),
+        pick_up_latitude float(53),
+        pick_up_longitude float(53),
+        delivery_id bigint,
+        id bigint not null auto_increment,
+        drop_address varchar(255),
+        pick_up_address varchar(255),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.499  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61c57de5 
+2024-10-30 22:20:34.539  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=61, active=1, idle=60, waiting=0) 
+2024-10-30 22:20:34.545  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13d49a74 
+2024-10-30 22:20:34.567  o.h.SQL - 
+    create table wallet (
+        balance decimal(38,2),
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        modified_by varchar(255),
+        card_company enum ('HANA','IBK','KB','LOTTE','NH','SAMSUNG','SHINHAN','WOORI'),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.567  o.h.SQL - 
+    create table wallet (
+        balance decimal(38,2),
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        member_id bigint not null,
+        updated_at datetime(6),
+        created_by varchar(255),
+        modified_by varchar(255),
+        card_company enum ('HANA','IBK','KB','LOTTE','NH','SAMSUNG','SHINHAN','WOORI'),
+        primary key (id)
+    ) engine=InnoDB 
+2024-10-30 22:20:34.585  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=62, active=1, idle=61, waiting=0) 
+2024-10-30 22:20:34.592  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d6760da 
+2024-10-30 22:20:34.614  o.h.SQL - 
+    create index idx_member_delivery_status 
+       on delivery (member_id, delivery_status) 
+2024-10-30 22:20:34.614  o.h.SQL - 
+    create index idx_member_delivery_status 
+       on delivery (member_id, delivery_status) 
+2024-10-30 22:20:34.632  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=63, active=1, idle=62, waiting=0) 
+2024-10-30 22:20:34.638  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51f3c50c 
+2024-10-30 22:20:34.664  o.h.SQL - 
+    alter table delivery 
+       add constraint UK1j31usbo3r8x93ruaspoijpk0 unique (reservation_number) 
+2024-10-30 22:20:34.664  o.h.SQL - 
+    alter table delivery 
+       add constraint UK1j31usbo3r8x93ruaspoijpk0 unique (reservation_number) 
+2024-10-30 22:20:34.678  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=64, active=1, idle=63, waiting=0) 
+2024-10-30 22:20:34.684  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1860e7d3 
+2024-10-30 22:20:34.699  o.h.SQL - 
+    alter table member 
+       add constraint UKmbmcqelty0fbrvxp1q58dn57t unique (email) 
+2024-10-30 22:20:34.699  o.h.SQL - 
+    alter table member 
+       add constraint UKmbmcqelty0fbrvxp1q58dn57t unique (email) 
+2024-10-30 22:20:34.725  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=65, active=1, idle=64, waiting=0) 
+2024-10-30 22:20:34.732  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e6ad567 
+2024-10-30 22:20:34.733  o.h.SQL - 
+    alter table member 
+       add constraint UKgwo2bqx6j18klv1e8ql503n61 unique (member_name) 
+2024-10-30 22:20:34.733  o.h.SQL - 
+    alter table member 
+       add constraint UKgwo2bqx6j18klv1e8ql503n61 unique (member_name) 
+2024-10-30 22:20:34.771  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=66, active=1, idle=65, waiting=0) 
+2024-10-30 22:20:34.773  o.h.SQL - 
+    alter table stop_over 
+       add constraint FKdq2y8aydtsokrmdkc6pfwsg5s 
+       foreign key (delivery_id) 
+       references delivery (id) 
+2024-10-30 22:20:34.773  o.h.SQL - 
+    alter table stop_over 
+       add constraint FKdq2y8aydtsokrmdkc6pfwsg5s 
+       foreign key (delivery_id) 
+       references delivery (id) 
+2024-10-30 22:20:34.777  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26900108 
+2024-10-30 22:20:34.817  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=67, active=1, idle=66, waiting=0) 
+2024-10-30 22:20:34.823  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a7cd1d6 
+2024-10-30 22:20:34.863  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=68, active=1, idle=67, waiting=0) 
+2024-10-30 22:20:34.870  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c1f24dd 
+2024-10-30 22:20:34.910  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=69, active=1, idle=68, waiting=0) 
+2024-10-30 22:20:34.915  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dc1f205 
+2024-10-30 22:20:34.921  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-30 22:20:34.956  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=70, active=0, idle=70, waiting=0) 
+2024-10-30 22:20:34.961  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d1fcc0e 
+2024-10-30 22:20:35.003  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=71, active=0, idle=71, waiting=0) 
+2024-10-30 22:20:35.009  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65c5e2fc 
+2024-10-30 22:20:35.050  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=72, active=0, idle=72, waiting=0) 
+2024-10-30 22:20:35.056  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27ab30a9 
+2024-10-30 22:20:35.098  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=73, active=0, idle=73, waiting=0) 
+2024-10-30 22:20:35.104  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59bf4f9a 
+2024-10-30 22:20:35.145  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=74, active=0, idle=74, waiting=0) 
+2024-10-30 22:20:35.150  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cdf5e93 
+2024-10-30 22:20:35.191  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=75, active=0, idle=75, waiting=0) 
+2024-10-30 22:20:35.197  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@705f5577 
+2024-10-30 22:20:35.238  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=76, active=0, idle=76, waiting=0) 
+2024-10-30 22:20:35.245  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cc768e7 
+2024-10-30 22:20:35.285  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=77, active=0, idle=77, waiting=0) 
+2024-10-30 22:20:35.292  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d356822 
+2024-10-30 22:20:35.330  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=78, active=0, idle=78, waiting=0) 
+2024-10-30 22:20:35.336  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44118254 
+2024-10-30 22:20:35.376  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=79, active=0, idle=79, waiting=0) 
+2024-10-30 22:20:35.381  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3efe9db1 
+2024-10-30 22:20:35.424  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=80, active=0, idle=80, waiting=0) 
+2024-10-30 22:20:35.429  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37361294 
+2024-10-30 22:20:35.471  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=81, active=0, idle=81, waiting=0) 
+2024-10-30 22:20:35.476  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21886280 
+2024-10-30 22:20:35.517  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=82, active=0, idle=82, waiting=0) 
+2024-10-30 22:20:35.525  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@302629ae 
+2024-10-30 22:20:35.564  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=83, active=0, idle=83, waiting=0) 
+2024-10-30 22:20:35.574  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32a3c984 
+2024-10-30 22:20:35.583  o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used. 
+2024-10-30 22:20:35.610  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=84, active=0, idle=84, waiting=0) 
+2024-10-30 22:20:35.617  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d9f79be 
+2024-10-30 22:20:35.657  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=85, active=0, idle=85, waiting=0) 
+2024-10-30 22:20:35.663  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8538bca 
+2024-10-30 22:20:35.704  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=86, active=0, idle=86, waiting=0) 
+2024-10-30 22:20:35.709  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58e2059a 
+2024-10-30 22:20:35.750  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=87, active=0, idle=87, waiting=0) 
+2024-10-30 22:20:35.756  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c023f90 
+2024-10-30 22:20:35.797  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=88, active=0, idle=88, waiting=0) 
+2024-10-30 22:20:35.803  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c91c9cb 
+2024-10-30 22:20:35.843  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=89, active=0, idle=89, waiting=0) 
+2024-10-30 22:20:35.850  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@769a45e1 
+2024-10-30 22:20:35.890  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=90, active=0, idle=90, waiting=0) 
+2024-10-30 22:20:35.894  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e5a9984 
+2024-10-30 22:20:35.936  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=91, active=0, idle=91, waiting=0) 
+2024-10-30 22:20:35.942  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@693ca006 
+2024-10-30 22:20:35.983  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=92, active=0, idle=92, waiting=0) 
+2024-10-30 22:20:35.988  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21573a37 
+2024-10-30 22:20:36.030  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=93, active=0, idle=93, waiting=0) 
+2024-10-30 22:20:36.035  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a659e67 
+2024-10-30 22:20:36.076  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=94, active=0, idle=94, waiting=0) 
+2024-10-30 22:20:36.082  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31901404 
+2024-10-30 22:20:36.123  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=95, active=0, idle=95, waiting=0) 
+2024-10-30 22:20:36.129  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38cb9f69 
+2024-10-30 22:20:36.170  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=96, active=0, idle=96, waiting=0) 
+2024-10-30 22:20:36.176  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@503127f3 
+2024-10-30 22:20:36.217  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=97, active=0, idle=97, waiting=0) 
+2024-10-30 22:20:36.222  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77be54c5 
+2024-10-30 22:20:36.264  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=98, active=0, idle=98, waiting=0) 
+2024-10-30 22:20:36.270  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e4631ee 
+2024-10-30 22:20:36.310  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=99, active=0, idle=99, waiting=0) 
+2024-10-30 22:20:36.316  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d7f3e04 
+2024-10-30 22:20:36.358  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=100, active=0, idle=100, waiting=0) 
+2024-10-30 22:20:36.358  c.z.h.p.HikariPool - HikariPool-1 - Connection not added, stats (total=100, active=0, idle=100, waiting=0) 
+2024-10-30 22:20:37.032  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-30 22:20:37.369  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl 
+2024-10-30 22:20:38.588  o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping' 
+2024-10-30 22:20:38.780  o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping' 
+2024-10-30 22:20:39.116  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice 
+2024-10-30 22:20:39.212  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice 
+2024-10-30 22:20:39.782  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-30 22:20:39.815  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-30 22:20:39.829  c.e.AppStoreAdminApplication - Started AppStoreAdminApplication in 17.27 seconds (process running for 19.668) 

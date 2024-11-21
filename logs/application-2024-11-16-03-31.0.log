@@ -1,0 +1,116 @@
+2024-11-16 03:31:11.756 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-16 03:31:11.761 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-11-16 03:31:41.765 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=100, active=0, idle=100, waiting=0)
+2024-11-16 03:31:41.767 [traceId=] c.z.h.p.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-11-16 03:31:52.309 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/driver", parameters={}
+2024-11-16 03:31:52.314 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.driver.DriverController#createDriver(CreateDriverRequest)
+2024-11-16 03:31:52.568 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.driver.model.dto.request.CreateDriverRequest@11f9234a]
+2024-11-16 03:31:53.006 [traceId=bc31c17b-c69c-42f7-a137-58df56f59a83] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_at,
+        d1_0.created_by,
+        d1_0.driver_name,
+        d1_0.image_url,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-16 03:31:53.006 [traceId=bc31c17b-c69c-42f7-a137-58df56f59a83] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_at,
+        d1_0.created_by,
+        d1_0.driver_name,
+        d1_0.image_url,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-16 03:31:53.801 [traceId=bc31c17b-c69c-42f7-a137-58df56f59a83] o.h.SQL - 
+    insert 
+    into
+        driver
+        (balance, created_at, created_by, driver_name, image_url, modified_by, password, roles, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-16 03:31:53.801 [traceId=bc31c17b-c69c-42f7-a137-58df56f59a83] o.h.SQL - 
+    insert 
+    into
+        driver
+        (balance, created_at, created_by, driver_name, image_url, modified_by, password, roles, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-16 03:31:53.943 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-16 03:31:53.944 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2024-11-16 03:31:53.950 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED
+2024-11-16 03:31:56.611 [traceId=] o.s.w.s.DispatcherServlet - POST "/api/driver", parameters={}
+2024-11-16 03:31:56.611 [traceId=] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.controller.driver.DriverController#createDriver(CreateDriverRequest)
+2024-11-16 03:31:56.614 [traceId=] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.driver.model.dto.request.CreateDriverRequest@345344c3]
+2024-11-16 03:31:56.619 [traceId=24c65244-4563-4446-a7b8-7f408f17991a] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_at,
+        d1_0.created_by,
+        d1_0.driver_name,
+        d1_0.image_url,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-16 03:31:56.619 [traceId=24c65244-4563-4446-a7b8-7f408f17991a] o.h.SQL - 
+    select
+        d1_0.id,
+        d1_0.balance,
+        d1_0.created_at,
+        d1_0.created_by,
+        d1_0.driver_name,
+        d1_0.image_url,
+        d1_0.modified_by,
+        d1_0.password,
+        d1_0.roles,
+        d1_0.updated_at,
+        d1_0.vehicle_type,
+        d1_0.vehicle_weight 
+    from
+        driver d1_0 
+    where
+        d1_0.driver_name=?
+2024-11-16 03:31:56.944 [traceId=24c65244-4563-4446-a7b8-7f408f17991a] o.h.SQL - 
+    insert 
+    into
+        driver
+        (balance, created_at, created_by, driver_name, image_url, modified_by, password, roles, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-16 03:31:56.944 [traceId=24c65244-4563-4446-a7b8-7f408f17991a] o.h.SQL - 
+    insert 
+    into
+        driver
+        (balance, created_at, created_by, driver_name, image_url, modified_by, password, roles, updated_at, vehicle_type, vehicle_weight) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-16 03:31:56.952 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-16 03:31:56.952 [traceId=] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2024-11-16 03:31:56.952 [traceId=] o.s.w.s.DispatcherServlet - Completed 201 CREATED

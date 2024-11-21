@@ -1,0 +1,46 @@
+{
+  "deliveryAddress": {
+    "pickupLocation": {
+      "pickUpLatitude": 0,
+      "pickUpLongitude": 0,
+      "pickUpAddress": "부산광역시 금곡대로 166"
+    },
+    "dropLocation": {
+      "dropLatitude": 0,
+      "dropLongitude": 0,
+      "dropAddress": "대구광역시 달서구 송현동2길 31"
+    }
+  },
+  "vehicle": {
+    "vehicleWeight": "RAMBO",
+    "vehicleType": "WATERPROOF_COVER"
+  },
+  "deliveryDate": "2024-09-12T14:30:00",
+  "deliveryOptions": "문 앞에 놓아주세요",
+  "stopOverAddresses": [
+    {
+      "pickupLocation": {
+        "pickUpLatitude": 0,
+        "pickUpLongitude": 0,
+        "pickUpAddress": "부산시 금정구 부산대학로63번길 2"
+      },
+      "dropLocation": {
+        "dropLatitude": 0,
+        "dropLongitude": 0,
+        "dropAddress": "부산시 금정구 부산대학로63번길 2"
+      }
+    },
+    {
+      "pickupLocation": {
+        "pickUpLatitude": 0,
+        "pickUpLongitude": 0,
+        "pickUpAddress": "부산시 금정구 부산대학로63번길 2"
+      },
+      "dropLocation": {
+        "dropLatitude": 0,
+        "dropLongitude": 0,
+        "dropAddress": "부산시 금정구 부산대학로63번길 2"
+      }
+    }
+  ]
+}
